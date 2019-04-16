@@ -20,13 +20,29 @@ namespace NumberGuessingGame
         {
             int min = 0;
             int max = 100;
-
+            int count = 0;
+            int input = 0;
+            
             int NumToGuess = RandomInt(min, max);
 
             do
             {
+                Console.Write("Enter a number between 1 and 100 (0 to quit):");
+                int.TryParse(Console.ReadLine(), out input);
 
-            } while (false);
+                if (input == 0)
+                    return;
+                else
+                {
+                    HigherOrLower(input, NumToGuess);
+                    count++;
+                }
+
+            } while (input != 0);
+
+            Console.WriteLine("You guessed it! The number was {0}!", NumToGuess);
+
+            Console.WriteLine("It took you {0} {1}.\n", count, count == 1 ? "try" : "tries");
         }
 
         // This method generates a random integer between two provided integers, inclusive
@@ -36,15 +52,13 @@ namespace NumberGuessingGame
             return (r.Next(min, max));
         }
 
-        // This method compares two provided integers and returns an integer if the first is higher, lower or the same as the second
-        private static int HigherOrLower(int firstNum, int secondNum)
+        // This method compares two provided integers and returns an integer if the first is higher or lower
+        private static void HigherOrLower(int firstNum, int secondNum)
         {
             if (firstNum > secondNum)
-                return 1;
+                Console.WriteLine("Low, try again.");
             else if (firstNum < secondNum)
-                return -1;
-            else
-                return 0;
+                Console.WriteLine("High, try again.");
         }
     }
 }
