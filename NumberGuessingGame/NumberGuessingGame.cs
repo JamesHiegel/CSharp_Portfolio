@@ -27,22 +27,25 @@ namespace NumberGuessingGame
 
             do
             {
-                Console.Write("Enter a number between 1 and 100 (0 to quit):");
-                int.TryParse(Console.ReadLine(), out input);
-
-                if (input == 0)
-                    return;
-                else
+                do
                 {
-                    HigherOrLower(input, NumToGuess);
-                    count++;
-                }
+                    Console.Write("Enter a number between 1 and 100 (0 to quit):");
+                    int.TryParse(Console.ReadLine(), out input);
+
+                    if (input == 0)
+                        return;
+                    else
+                    {
+                        HigherOrLower(input, NumToGuess);
+                        count++;
+                    }
+
+                } while (input != NumToGuess);
+
+                Console.WriteLine("You guessed it! The number was {0}!", NumToGuess);
+                Console.WriteLine("It took you {0} {1}.\n", count, count == 1 ? "try" : "tries");
 
             } while (input != 0);
-
-            Console.WriteLine("You guessed it! The number was {0}!", NumToGuess);
-
-            Console.WriteLine("It took you {0} {1}.\n", count, count == 1 ? "try" : "tries");
         }
 
         // This method generates a random integer between two provided integers, inclusive
@@ -56,9 +59,9 @@ namespace NumberGuessingGame
         private static void HigherOrLower(int firstNum, int secondNum)
         {
             if (firstNum > secondNum)
-                Console.WriteLine("Low, try again.");
-            else if (firstNum < secondNum)
                 Console.WriteLine("High, try again.");
+            else if (firstNum < secondNum)
+                Console.WriteLine("Low, try again.");
         }
     }
 }

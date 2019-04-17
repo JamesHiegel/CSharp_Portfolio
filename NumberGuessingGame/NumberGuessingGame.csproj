@@ -5,12 +5,4 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="NumberGuessingGame.orig" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="NumberGuessingGame.orig" />
-  </ItemGroup>
-
 </Project>
