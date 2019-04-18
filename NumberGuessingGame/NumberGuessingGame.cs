@@ -29,12 +29,21 @@ namespace NumberGuessingGame
             {
                 do
                 {
-                    Console.Write("Enter a number between 1 and 100 (0 to quit):");
+                    do
+                    {
+                        Console.Write("Enter a number between 1 and 100 (-1 to quit):");
+                        // attempts to convert user input into integer
+                        // returns a zero if input cannot convert
+                        int.TryParse(Console.ReadLine(), out input);
 
-                    int.TryParse(Console.ReadLine(), out input);
+                        // notifies user if input was invalid
+                        if (input == 0)
+                            Console.WriteLine("ERROR! Invalid input, only enter integers");
 
-                    if (input == 0)
-                        return; // exits inner do-while loop when user inputs 0
+                    } while (input != 0); // loops until valid input is entered
+
+                    if (input == -1)
+                        return; // exits inner do-while loop when user inputs -1
                     else
                     {
                         // calls a method to tell the user if a number is higher or lower
@@ -51,7 +60,7 @@ namespace NumberGuessingGame
 
                 count = 0; // resets guess counter
 
-            } while (input != 0); // loops until user inputs 0
+            } while (input != -1); // loops until user inputs -1
 
         } // end Main()
 
