@@ -46,14 +46,14 @@ namespace NumberGuessingGame
                 Console.WriteLine("It took you {0} {1}.\n", count, count == 1 ? "try" : "tries");
 
             } while (input != 0);
-        }
+        } // end Main()
 
         // This method generates a random integer between two provided integers, inclusive
         private static int RandomInt(int min, int max)
         {
             Random r = new Random();
             return (r.Next(min, max));
-        }
+        } // end RandomInt()
 
         // This method compares two provided integers and returns an integer if the first is higher or lower
         private static void HigherOrLower(int firstNum, int secondNum)
@@ -62,6 +62,8 @@ namespace NumberGuessingGame
                 Console.WriteLine("High, try again.");
             else if (firstNum < secondNum)
                 Console.WriteLine("Low, try again.");
-        }
-    }
+        } // end HigherOrLower()
+
+    } // end class NumberGuessingGame
+
 }
