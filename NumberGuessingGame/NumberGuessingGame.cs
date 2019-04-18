@@ -24,9 +24,9 @@ namespace NumberGuessingGame
     // This program randomly generates a number between 1 and 100. Then prompts the user
     // to guess a number and provides feedback if the guess is higher or lower.  Once the user 
     // guesses the number the program tells the user how many guesses it took.
-    class NumberGuessingGame
+    public class NumberGuessingGame
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int min = 0;
             int max = 100;
