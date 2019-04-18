@@ -48,14 +48,15 @@ namespace NumberGuessingGame
             } while (input != 0);
         } // end Main()
 
-        // This method generates a random integer between two provided integers, inclusive
+        // This method returns a randomly generated integer between two provided integers, inclusive.
         private static int RandomInt(int min, int max)
         {
             Random r = new Random();
             return (r.Next(min, max));
         } // end RandomInt()
 
-        // This method compares two provided integers and returns an integer if the first is higher or lower
+        // This method compares two provided integers and outputs text stating 
+        // if the second number is higher or lower than the first.
         private static void HigherOrLower(int firstNum, int secondNum)
         {
             if (firstNum > secondNum)
