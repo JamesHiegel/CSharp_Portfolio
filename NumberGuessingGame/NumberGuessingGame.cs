@@ -40,7 +40,7 @@ namespace NumberGuessingGame
                         if (input == 0)
                             Console.WriteLine("ERROR! Invalid input, only enter integers");
 
-                    } while (input != 0); // loops until valid input is entered
+                    } while (input == 0); // loops until valid input is entered
 
                     if (input == -1)
                         return; // exits inner do-while loop when user inputs -1
