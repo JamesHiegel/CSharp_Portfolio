@@ -23,10 +23,10 @@ namespace NumberGuessingGame
             int count = 0;
             int input = 0;
             
-            int NumToGuess = RandomInt(min, max);
-
             do
             {
+                int NumToGuess = RandomInt(min, max);
+
                 do
                 {
                     do
