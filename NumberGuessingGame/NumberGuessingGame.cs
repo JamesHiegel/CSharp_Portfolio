@@ -1,6 +1,8 @@
 ﻿// SOURCE: https://www.sanfoundry.com/csharp-program-performs-number-guessing-game/
 // FILENAME: NumberGuessingGame.cs
-// PURPOSE: User guesses numbers and is told higher or lower until the correct number is guessed.
+// PURPOSE: The program randomly generates a number between 1 and 100. Then prompts the user
+// to guess a number and provides feedback if the guess is higher or lower.  Once the user 
+// guesses the number the program tells the user how many guesses it took.
 // STUDENT: James Hiegel
 // DATE: 16 April 2019
 
@@ -9,8 +11,6 @@
 // FUNCTIONAL MODIFICATIONS: none
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace NumberGuessingGame
 {
