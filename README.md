@@ -8,6 +8,11 @@ Each program is located in its own folder, if I have rewritten the program the o
 
 If you are using Visual Studio each program folder is saved as a seperate project and the repository is saved as a solution.
 
+## Categories
+
+### Rewritten Programs
+* [NumberGuessingGame](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame)
+
 ## Built With
 
 * [Visual Studio](https://visualstudio.microsoft.com/)
