@@ -1,80 +1,21 @@
 # C# Portfolio
 
-This repository contains sample programs that I have annotated or rewritten to demonstrate my knowledge and coding skills in C#.
+This repository contains annotated and rewritten C# programs that demonstrate my understanding of C#.
 
 ## Getting Started
 
-If you are using Visual Studio you can clone and open 
+Each program is located in its own folder, if I have rewritten the program the original version is saved as "\_orig.cs". Source code can be viewed in the web browser or your favorite editor.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+If you are using Visual Studio each program folder is saved as a seperate project and the repository is saved as a solution.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Visual Studio](https://visualstudio.microsoft.com/)
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Various, cited in each program** - *Original source code*
+* **James Hiegel** - *Added comments and rewrote select programs*
 
 ## License
 
@@ -82,6 +23,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* [C# Corner](https://www.c-sharpcorner.com/)
+* [Sanfoundry](https://www.sanfoundry.com/)
+* [GeeksforGeeks](https://www.geeksforgeeks.org/)
+* [LinkedIn Learning - Become a C# Developer](https://www.linkedin.com/learning/paths/become-a-c-developer)
