@@ -9,7 +9,7 @@
 // STUDENT: James Hiegel
 // DATE: 02 May 2019
 
-// STYLE MODIFICATIONS: none
+// STYLE MODIFICATIONS: Added comments from article into code.
 
 // FUNCTIONAL MODIFICATIONS: none
 
@@ -69,10 +69,11 @@ namespace LinkedLists
             internal DNode head;
         }
 
-        // The first node, head, will be null when the linked list is instantiated. 
-        // When we want to add any node at the front, we want the head to point to it.
-        // We will create a new node.The next of the new node will point to the head of the Linked list.
-        // The previous Head node is now the second node of Linked List because the new node is added at the front.
+        // The first node, head, will be null when the linked list is instantiated. When we
+        // want to add any node at the front, we want the head to point to it. We will create
+        // a new node.The next of the new node will point to the head of the Linked list. The 
+        // previous Head node is now the second node of Linked List because the new node is 
+        // added at the front.
         internal void InsertFront(SingleLinkedList singlyList, int new_data)
         {
             Node new_node = new Node(new_data);
@@ -92,6 +93,60 @@ namespace LinkedLists
                 doubleLinkedList.head.prev = newNode;
             }
             doubleLinkedList.head = newNode;
+        }
+
+        // If the Linked List is empty, then we simply add the new node as the Head 
+        // of the Linked List. If the Linked List is not empty, then we find the last 
+        // node and make next of the last node to the new node.
+        internal void InsertLast(SingleLinkedList singlyList, int new_data)
+        {
+            Node new_node = new Node(new_data);
+            if (singlyList.head == null)
+            {
+                singlyList.head = new_node;
+                return;
+            }
+            Node lastNode = GetLastNode(singlyList);
+            lastNode.next = new_node;
+        }
+
+        // To insert the data at the end of a doubly linked list, we have to follow 
+        // one extra step; .i.e., point previous pointer of new node to the last node.
+        internal void InsertLast(DoubleLinkedList doubleLinkedList, int data)
+        {
+            DNode newNode = new DNode(data);
+            if (doubleLinkedList.head == null)
+            {
+                newNode.prev = null;
+                doubleLinkedList.head = newNode;
+                return;
+            }
+            DNode lastNode = GetLastNode(doubleLinkedList);
+            lastNode.next = newNode;
+            newNode.prev = lastNode;
+        }
+
+        // The last node will be the one with its next pointing to null. Hence we will
+        // traverse the list until we find the node with next as null and return that 
+        // node as last node. 
+        internal Node GetLastNode(SingleLinkedList singlyList)
+        {
+            Node temp = singlyList.head;
+            while (temp.next != null)
+            {
+                temp = temp.next;
+            }
+            return temp;
+        }
+
+        internal DNode GetLastNode(DoubleLinkedList doubleLinkedList)
+        {
+            DNode temp = doubleLinkedList.head;
+            while (temp.next != null)
+            {
+                temp = temp.next;
+            }
+            return temp;
         }
     }
 }
