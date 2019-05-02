@@ -55,5 +55,19 @@ namespace LinkedLists
                 next = null;
             }
         }
+
+        // When a new Linked List is instantiated, it just has the head, 
+        // which is Null.The SinglyLinkedList class will contain nodes 
+        // of type Node class. 
+        internal class SingleLinkedList
+        {
+            internal Node head;
+        }
+
+        // The DoublyLinkedList class will contain nodes of type DNode class.
+        internal class DoubleLinkedList
+        {
+            internal DNode head;
+        }
     }
 }
