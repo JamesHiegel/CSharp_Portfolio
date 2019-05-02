@@ -4,7 +4,7 @@
 //     is Founder and CTO at Sanfoundry. He is Linux Kernel Developer and
 //     SAN Architect and is passionate about competency development....
 //     He lives in Bangalore ....
-// FILENAME: NumberGuessingGame_.cs
+// FILENAME: NumberGuessingGame_orig.cs
 // PURPOSE: User guesses numbers and is told higher or lower until the correct number is guessed.
 // STUDENT: James Hiegel
 // DATE: 16 April 2019
