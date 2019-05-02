@@ -15,7 +15,7 @@
 
 
 // A C# program that implements a linked list and doubly linked 
-// list and demonstrates various operations on those lists. 
+// list and demonstrates various operations on those lists.
 using System;
 
 namespace LinkedLists
@@ -28,7 +28,7 @@ namespace LinkedLists
         }
 
         // The node of a singly linked list contains a data part and a link part. 
-        // The link will contain the address of next node and is initialized to null. 
+        // The link will contain the address of next node and is initialized to null.
         internal class Node
         {
             internal int data;
@@ -57,7 +57,7 @@ namespace LinkedLists
 
         // When a new Linked List is instantiated, it just has the head, 
         // which is Null.The SinglyLinkedList class will contain nodes 
-        // of type Node class. 
+        // of type Node class.
         internal class SingleLinkedList
         {
             internal Node head;
@@ -68,6 +68,8 @@ namespace LinkedLists
         {
             internal DNode head;
         }
+
+        // Insert data at front of the Linked List
 
         // The first node, head, will be null when the linked list is instantiated. When we
         // want to add any node at the front, we want the head to point to it. We will create
@@ -94,6 +96,8 @@ namespace LinkedLists
             }
             doubleLinkedList.head = newNode;
         }
+
+        // Insert data at the end of Linked List
 
         // If the Linked List is empty, then we simply add the new node as the Head 
         // of the Linked List. If the Linked List is not empty, then we find the last 
@@ -128,7 +132,7 @@ namespace LinkedLists
 
         // The last node will be the one with its next pointing to null. Hence we will
         // traverse the list until we find the node with next as null and return that 
-        // node as last node. 
+        // node as last node.
         internal Node GetLastNode(SingleLinkedList singlyList)
         {
             Node temp = singlyList.head;
@@ -147,6 +151,43 @@ namespace LinkedLists
                 temp = temp.next;
             }
             return temp;
+        }
+
+        // Insert data after a given node of Linked List
+
+        // We have to insert a new node after a given node. We will
+        // set the next of new node to the next of given node. Then 
+        // we will set the next of given node to new node
+        internal void InsertAfter(Node prev_node, int new_data)
+        {
+            if (prev_node == null)
+            {
+                Console.WriteLine("The given previous node Cannot be null");
+                return;
+            }
+            Node new_node = new Node(new_data);
+            new_node.next = prev_node.next;
+            prev_node.next = new_node;
+        }
+
+        // To perform this operation on doubly linked list we need to follow two extra steps
+        // 1. Set the previous of new node to given node.
+        // 2. Set the previous of the next node of given node to the new node.
+        internal void InsertAfter(DNode prev_node, int data)
+        {
+            if (prev_node == null)
+            {
+                Console.WriteLine("The given previous node cannot be null");
+                return;
+            }
+            DNode newNode = new DNode(data);
+            newNode.next = prev_node.next;
+            prev_node.next = newNode;
+            newNode.prev = prev_node;
+            if (newNode.next != null)
+            {
+                newNode.next.prev = newNode;
+            }
         }
     }
 }
