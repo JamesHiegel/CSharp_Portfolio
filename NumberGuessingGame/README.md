@@ -2,10 +2,6 @@
 
 This is a simple console game where a user enters successive guesses until the correct number is reached.
 
-## Source
-
-https://www.sanfoundry.com/csharp-program-performs-number-guessing-game/
-
 ## Getting Started
 
 Download, and then compile and run in your favorite editor.
@@ -27,6 +23,6 @@ Download, and then compile and run in your favorite editor.
 * **Manish Bhojasia** - *Original author *
 * **James Hiegel** - *Added comments to original and rewrote program*
 
-## Acknowledgments
+## Source
 
-* [Sanfoundry](https://www.sanfoundry.com/)
+https://www.sanfoundry.com/csharp-program-performs-number-guessing-game/
