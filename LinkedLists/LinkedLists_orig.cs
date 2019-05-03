@@ -28,41 +28,40 @@ namespace LinkedLists
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("SinglyLinkedList");
+            Console.WriteLine("SinglyLinkedList Examples");
             SingleLinkedList singleLinkList = new SingleLinkedList();
-            Console.WriteLine("Add 81 to front of list");
+            Console.WriteLine("\nAdd 81 to front of list");
             InsertFront(singleLinkList, 81);
             Console.WriteLine(singleLinkList.ToString());
 
-            Console.WriteLine("Add 54 to front of list");
+            Console.WriteLine("\nAdd 54 to front of list");
             InsertFront(singleLinkList, 54);
             Console.WriteLine(singleLinkList.ToString());
 
-            Console.WriteLine("Add 27 to back of list");
+            Console.WriteLine("\nAdd 27 to back of list");
             InsertLast(singleLinkList, 27);
             Console.WriteLine(singleLinkList.ToString());
 
-            Console.WriteLine("Reverse list");
+            Console.WriteLine("\nReverse list");
             ReverseLinkedList(singleLinkList);
             Console.WriteLine(singleLinkList.ToString());
 
-            Console.WriteLine();
-            Console.WriteLine("DoublyLinkedList");
+            Console.WriteLine("\nDoublyLinkedList Examples");
 
             DoubleLinkedList doubleLinkList = new DoubleLinkedList();
-            Console.WriteLine("Add 81 to front of list");
+            Console.WriteLine("\nAdd 81 to front of list");
             InsertFront(doubleLinkList, 81);
             Console.WriteLine(doubleLinkList.ToString());
 
-            Console.WriteLine("Add 54 to front of list");
+            Console.WriteLine("\nAdd 54 to front of list");
             InsertFront(doubleLinkList, 54);
             Console.WriteLine(doubleLinkList.ToString());
 
-            Console.WriteLine("Add 27 to back of list");
+            Console.WriteLine("\nAdd 27 to back of list");
             InsertLast(doubleLinkList, 27);
             Console.WriteLine(doubleLinkList.ToString());
 
-            Console.WriteLine("Reverse list");
+            Console.WriteLine("\nReverse list");
             ReverseLinkedList(doubleLinkList);
             Console.WriteLine(doubleLinkList.ToString());
 
@@ -103,6 +102,7 @@ namespace LinkedLists
         {
             internal Node head;
 
+            // The ToString method iterates over the list from head to tail and returns a formatted string for output
             public override string ToString()
             {
                 Node temp = head;
@@ -121,6 +121,8 @@ namespace LinkedLists
         internal class DoubleLinkedList
         {
             internal DNode head;
+
+            // The ToString method iterates over the list from head to tail and returns a formatted string for output
             public override string ToString()
             {
                 DNode temp = head;
@@ -228,7 +230,7 @@ namespace LinkedLists
         {
             if (prev_node == null)
             {
-                Console.WriteLine("The given previous node Cannot be null");
+                Console.WriteLine("The given previous node cannot be null");
                 return;
             }
             Node new_node = new Node(new_data);
