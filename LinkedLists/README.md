@@ -7,12 +7,12 @@ This is a simple console game where a user enters successive guesses until the c
 Download, and then compile and run in your favorite editor.
 
 ## Singly LinkedList
-![singly linkedlist operations]()
+![singly linkedlist operations](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists/img/singlelinkedlist.PNG)
 Creates a singly LinkedList then adds two elements to the front of the list.
 Then adds an element to the end of the list and reverses the list order.
 
 ## Singly LinkedList
-![doubly linkedlist operations]()
+![doubly linkedlist operations](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists/img/doublelinkedlist.PNG)
 Creates a doubly LinkedList then adds two elements to the front of the list.
 Then adds an element to the end of the list and reverses the list order.
 
