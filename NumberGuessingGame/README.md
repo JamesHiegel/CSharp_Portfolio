@@ -11,7 +11,7 @@ https://www.sanfoundry.com/csharp-program-performs-number-guessing-game/
 Download, and then compile and run in your favorite editor.
 
 ## Game Start
-![game prompt](NumberGuessingGame/img/start.PNG)
+![game prompt](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/NumberGuessingGame/img/start.PNG)
 
 ## Entering Guesses
 ![game prompt](NumberGuessingGame/img/guesses.PNG)
