@@ -25,8 +25,22 @@ namespace LinkedLists
         static void Main(string[] args)
         {
             SingleLinkedList singleLinkList = new SingleLinkedList();
+            Console.WriteLine("Add 81 to front of list");
             InsertFront(singleLinkList, 81);
+            Console.WriteLine(singleLinkList.ToString());
 
+            Console.WriteLine("Add 54 to front of list");
+            InsertFront(singleLinkList, 54);
+            Console.WriteLine(singleLinkList.ToString());
+
+
+            Console.WriteLine("Add 27 to back of list");
+            InsertLast(singleLinkList, 27);
+
+            Console.WriteLine("Sort list");
+            ReverseLinkedList(singleLinkList);
+
+            
             DoubleLinkedList doubleLinkList = new DoubleLinkedList();
         }
 
@@ -64,6 +78,19 @@ namespace LinkedLists
         internal class SingleLinkedList
         {
             internal Node head;
+
+            public override string ToString()
+            {
+                Node temp = head;
+                string output = "[" + head.data;
+                while (temp.next != null)
+                {
+                    output += ", " + temp.next.data;
+                    temp = temp.next;
+                }
+                output += "]";
+                return output;
+            }
         }
 
         // The DoublyLinkedList class will contain nodes of type DNode class.
