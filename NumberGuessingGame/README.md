@@ -10,13 +10,13 @@ Download, and then compile and run in your favorite editor.
 ![game prompt](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/NumberGuessingGame/img/start.PNG)
 
 ## Entering Guesses
-![game prompt](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/NumberGuessingGame/img/guesses.PNG)
+![entering guesses](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/NumberGuessingGame/img/guesses.PNG)
 
 ## Correct Answer
-![game prompt](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/NumberGuessingGame/img/correct.PNG)
+![correct answer](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/NumberGuessingGame/img/correct.PNG)
 
 ## Exiting Program
-![game prompt](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/NumberGuessingGame/img/quit.PNG)
+![exit program](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/NumberGuessingGame/img/quit.PNG)
 
 ## Authors
 
