@@ -24,7 +24,9 @@ namespace LinkedLists
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SingleLinkedList singleLinkList = new SingleLinkedList();
+
+            DoubleLinkedList doubleLinkList = new DoubleLinkedList();
         }
 
         // The node of a singly linked list contains a data part and a link part. 
@@ -188,6 +190,85 @@ namespace LinkedLists
             {
                 newNode.next.prev = newNode;
             }
+        }
+
+        // Delete a node from Linked List using a given key value
+
+        // First step is to find the node having the key value.  We will traverse through the Linked list,
+        // and use one extra pointer to keep track of the previous node while traversing the linked list.
+        // If the node to be deleted is the first node, then simply set the Next pointer of the Head to 
+        // point to the next element from the Node to be deleted. 
+        // If the node is in the middle somewhere, then find the node before it, and make the Node before it
+        // point to the Node next to it. 
+        // If the node to be deleted is last node, then find the node before it, and set it to point to null.
+        internal void DeleteNodebyKey(SingleLinkedList singlyList, int key)
+        {
+            Node temp = null;
+            Node prev = null;
+            if (temp != null && temp.data == key)
+            {
+                singlyList.head = temp.next;
+                return;
+            }
+            while (temp != null && temp.data != key)
+            {
+                prev = temp;
+                temp = temp.next;
+            }
+            if (temp == null)
+            {
+                return;
+            }
+            prev.next = temp.next;
+        }
+
+        // To perform this operation on doubly linked list we don't need any extra pointer 
+        // for previous node as Doubly linked list already have a pointer to previous node.
+        internal void DeleteNodebyKey(DoubleLinkedList doubleLinkedList, int key)
+        {
+            DNode temp = doubleLinkedList.head;
+            if (temp != null && temp.data == key)
+            {
+                doubleLinkedList.head = temp.next;
+                doubleLinkedList.head.prev = null;
+                return;
+            }
+            while (temp != null && temp.data != key)
+            {
+                temp = temp.next;
+            }
+            if (temp == null)
+            {
+                return;
+            }
+            if (temp.next != null)
+            {
+                temp.next.prev = temp.prev;
+            }
+            if (temp.prev != null)
+            {
+                temp.prev.next = temp.next;
+            }
+        }
+
+        // Reverse a Singly Linked list
+
+        // We need two extra pointers to keep track of previous and next node, initialize them to null.
+        // Start traversing the list from head node to last node and reverse the pointer of one node in each iteration.
+        // Once the list is exhausted, set last node as head node.
+        public void ReverseLinkedList(SingleLinkedList singlyList)
+        {
+            Node prev = null;
+            Node current = singlyList.head;
+            Node temp = null;
+            while (current != null)
+            {
+                temp = current.next;
+                current.next = prev;
+                prev = current;
+                current = temp;
+            }
+            singlyList.head = prev;
         }
     }
 }
