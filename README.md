@@ -13,6 +13,9 @@ If you are using Visual Studio each program folder is saved as a seperate projec
 ### Rewritten Programs
 * [NumberGuessingGame](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame)
 
+### Commented Programs
+* [LinkedLists](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists/LinkedLists_orig.cs)
+
 ## Built With
 
 * [Visual Studio](https://visualstudio.microsoft.com/)
