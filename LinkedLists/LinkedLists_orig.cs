@@ -20,11 +20,12 @@ using System;
 
 namespace LinkedLists
 {
-    class LinkedLists_orig
+    public class LinkedLists_orig
     {
         static void Main(string[] args)
         {
             SingleLinkedList singleLinkList = new SingleLinkedList();
+            InsertFront(singleLinkList, 81);
 
             DoubleLinkedList doubleLinkList = new DoubleLinkedList();
         }
@@ -78,7 +79,7 @@ namespace LinkedLists
         // a new node.The next of the new node will point to the head of the Linked list. The 
         // previous Head node is now the second node of Linked List because the new node is 
         // added at the front.
-        internal void InsertFront(SingleLinkedList singlyList, int new_data)
+        internal static void InsertFront(SingleLinkedList singlyList, int new_data)
         {
             Node new_node = new Node(new_data);
             new_node.next = singlyList.head;
@@ -87,7 +88,7 @@ namespace LinkedLists
 
         // To insert the data at front of the doubly linked list, we have to follow 
         // one extra step i.e. point the previous pointer of head node to the new node.
-        internal void InsertFront(DoubleLinkedList doubleLinkedList, int data)
+        internal static void InsertFront(DoubleLinkedList doubleLinkedList, int data)
         {
             DNode newNode = new DNode(data);
             newNode.next = doubleLinkedList.head;
@@ -104,7 +105,7 @@ namespace LinkedLists
         // If the Linked List is empty, then we simply add the new node as the Head 
         // of the Linked List. If the Linked List is not empty, then we find the last 
         // node and make next of the last node to the new node.
-        internal void InsertLast(SingleLinkedList singlyList, int new_data)
+        internal static void InsertLast(SingleLinkedList singlyList, int new_data)
         {
             Node new_node = new Node(new_data);
             if (singlyList.head == null)
@@ -118,7 +119,7 @@ namespace LinkedLists
 
         // To insert the data at the end of a doubly linked list, we have to follow 
         // one extra step; .i.e., point previous pointer of new node to the last node.
-        internal void InsertLast(DoubleLinkedList doubleLinkedList, int data)
+        internal static void InsertLast(DoubleLinkedList doubleLinkedList, int data)
         {
             DNode newNode = new DNode(data);
             if (doubleLinkedList.head == null)
@@ -135,7 +136,7 @@ namespace LinkedLists
         // The last node will be the one with its next pointing to null. Hence we will
         // traverse the list until we find the node with next as null and return that 
         // node as last node.
-        internal Node GetLastNode(SingleLinkedList singlyList)
+        internal static Node GetLastNode(SingleLinkedList singlyList)
         {
             Node temp = singlyList.head;
             while (temp.next != null)
@@ -145,7 +146,7 @@ namespace LinkedLists
             return temp;
         }
 
-        internal DNode GetLastNode(DoubleLinkedList doubleLinkedList)
+        internal static DNode GetLastNode(DoubleLinkedList doubleLinkedList)
         {
             DNode temp = doubleLinkedList.head;
             while (temp.next != null)
@@ -160,7 +161,7 @@ namespace LinkedLists
         // We have to insert a new node after a given node. We will
         // set the next of new node to the next of given node. Then 
         // we will set the next of given node to new node
-        internal void InsertAfter(Node prev_node, int new_data)
+        internal static void InsertAfter(Node prev_node, int new_data)
         {
             if (prev_node == null)
             {
@@ -175,7 +176,7 @@ namespace LinkedLists
         // To perform this operation on doubly linked list we need to follow two extra steps
         // 1. Set the previous of new node to given node.
         // 2. Set the previous of the next node of given node to the new node.
-        internal void InsertAfter(DNode prev_node, int data)
+        internal static void InsertAfter(DNode prev_node, int data)
         {
             if (prev_node == null)
             {
@@ -201,7 +202,7 @@ namespace LinkedLists
         // If the node is in the middle somewhere, then find the node before it, and make the Node before it
         // point to the Node next to it. 
         // If the node to be deleted is last node, then find the node before it, and set it to point to null.
-        internal void DeleteNodebyKey(SingleLinkedList singlyList, int key)
+        internal static void DeleteNodebyKey(SingleLinkedList singlyList, int key)
         {
             Node temp = null;
             Node prev = null;
@@ -224,7 +225,7 @@ namespace LinkedLists
 
         // To perform this operation on doubly linked list we don't need any extra pointer 
         // for previous node as Doubly linked list already have a pointer to previous node.
-        internal void DeleteNodebyKey(DoubleLinkedList doubleLinkedList, int key)
+        internal static void DeleteNodebyKey(DoubleLinkedList doubleLinkedList, int key)
         {
             DNode temp = doubleLinkedList.head;
             if (temp != null && temp.data == key)
@@ -256,7 +257,7 @@ namespace LinkedLists
         // We need two extra pointers to keep track of previous and next node, initialize them to null.
         // Start traversing the list from head node to last node and reverse the pointer of one node in each iteration.
         // Once the list is exhausted, set last node as head node.
-        public void ReverseLinkedList(SingleLinkedList singlyList)
+        internal static void ReverseLinkedList(SingleLinkedList singlyList)
         {
             Node prev = null;
             Node current = singlyList.head;
