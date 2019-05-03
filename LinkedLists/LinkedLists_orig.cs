@@ -24,6 +24,7 @@ namespace LinkedLists
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("SinglyLinkedList");
             SingleLinkedList singleLinkList = new SingleLinkedList();
             Console.WriteLine("Add 81 to front of list");
             InsertFront(singleLinkList, 81);
@@ -33,15 +34,34 @@ namespace LinkedLists
             InsertFront(singleLinkList, 54);
             Console.WriteLine(singleLinkList.ToString());
 
-
             Console.WriteLine("Add 27 to back of list");
             InsertLast(singleLinkList, 27);
+            Console.WriteLine(singleLinkList.ToString());
 
             Console.WriteLine("Sort list");
             ReverseLinkedList(singleLinkList);
+            Console.WriteLine(singleLinkList.ToString());
 
-            
+            Console.WriteLine();
+            Console.WriteLine("DoublyLinkedList");
+
             DoubleLinkedList doubleLinkList = new DoubleLinkedList();
+            Console.WriteLine("Add 81 to front of list");
+            InsertFront(doubleLinkList, 81);
+            Console.WriteLine(doubleLinkList.ToString());
+
+            Console.WriteLine("Add 54 to front of list");
+            InsertFront(doubleLinkList, 54);
+            Console.WriteLine(doubleLinkList.ToString());
+
+            Console.WriteLine("Add 27 to back of list");
+            InsertLast(doubleLinkList, 27);
+            Console.WriteLine(doubleLinkList.ToString());
+
+            Console.WriteLine("Sort list");
+            ReverseLinkedList(doubleLinkList);
+            Console.WriteLine(doubleLinkList.ToString());
+
         }
 
         // The node of a singly linked list contains a data part and a link part. 
@@ -97,6 +117,18 @@ namespace LinkedLists
         internal class DoubleLinkedList
         {
             internal DNode head;
+            public override string ToString()
+            {
+                DNode temp = head;
+                string output = "[" + head.data;
+                while (temp.next != null)
+                {
+                    output += ", " + temp.next.data;
+                    temp = temp.next;
+                }
+                output += "]";
+                return output;
+            }
         }
 
         // Insert data at front of the Linked List
@@ -297,6 +329,20 @@ namespace LinkedLists
                 current = temp;
             }
             singlyList.head = prev;
+        }
+        internal static void ReverseLinkedList(DoubleLinkedList doublyLinkedList)
+        {
+            DNode prev = null;
+            DNode current = doublyLinkedList.head;
+            DNode temp = null;
+            while (current != null)
+            {
+                temp = current.next;
+                current.next = prev;
+                prev = current;
+                current = temp;
+            }
+            doublyLinkedList.head = prev;
         }
     }
 }
