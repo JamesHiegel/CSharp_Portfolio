@@ -1,6 +1,6 @@
-# Number Guessing Game
+# Singly and Doubly LinkedLists
 
-This is a simple console game where a user enters successive guesses until the correct number is reached.
+Example program that creates a singly and doubly LinkedList. Inserts and removes elements and then reverses the list.
 
 ## Getting Started
 
