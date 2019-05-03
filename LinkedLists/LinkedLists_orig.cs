@@ -9,9 +9,13 @@
 // STUDENT: James Hiegel
 // DATE: 02 May 2019
 
-// STYLE MODIFICATIONS: Added comments from article into code.
+// STYLE MODIFICATIONS: 
+// Added comments from article into code.
 
-// FUNCTIONAL MODIFICATIONS: none
+// FUNCTIONAL MODIFICATIONS:
+// Added ToString methods to SinglyLinkedList and DoublyLinkedList classes.
+// Added GetLastNode method for DoublyLinkedList.
+// Added ReverseList method for DoublyLinkedList.
 
 
 // A C# program that implements a linked list and doubly linked 
@@ -38,7 +42,7 @@ namespace LinkedLists
             InsertLast(singleLinkList, 27);
             Console.WriteLine(singleLinkList.ToString());
 
-            Console.WriteLine("Sort list");
+            Console.WriteLine("Reverse list");
             ReverseLinkedList(singleLinkList);
             Console.WriteLine(singleLinkList.ToString());
 
@@ -58,7 +62,7 @@ namespace LinkedLists
             InsertLast(doubleLinkList, 27);
             Console.WriteLine(doubleLinkList.ToString());
 
-            Console.WriteLine("Sort list");
+            Console.WriteLine("Reverse list");
             ReverseLinkedList(doubleLinkList);
             Console.WriteLine(doubleLinkList.ToString());
 
