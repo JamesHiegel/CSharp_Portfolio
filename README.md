@@ -13,6 +13,7 @@ If you are using Visual Studio each program folder is saved as a seperate projec
 | Rewritten Programs | Commented Programs |
 |---					 |---					  |
 | [NumberGuessingGame](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame) | [LinkedLists](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) |
+| | [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) |
 
 ## Built With
 
@@ -33,3 +34,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [Sanfoundry](https://www.sanfoundry.com/)
 * [GeeksforGeeks](https://www.geeksforgeeks.org/)
 * [LinkedIn Learning - Become a C# Developer](https://www.linkedin.com/learning/paths/become-a-c-developer)
+* [W3Resource](https://www.w3resource.com/csharp-exercises/)
