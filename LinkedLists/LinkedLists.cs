@@ -4,7 +4,7 @@
 //   TechNet Wiki. For his dedicated contribution to the developer’s community, he has been recognized 
 //   as c-sharpcorner MVP, Dzone MVB and Top contributor in Technology at Medium.
 
-// FILENAME: LinkedLists_orig.cs
+// FILENAME: LinkedLists.cs
 // PURPOSE: Demonstrate how a linked list and doubly linked list works.
 // STUDENT: James Hiegel
 // DATE: 02 May 2019
@@ -24,7 +24,7 @@ using System;
 
 namespace LinkedLists
 {
-    public class LinkedLists_orig
+    public class LinkedLists
     {
         static void Main(string[] args)
         {

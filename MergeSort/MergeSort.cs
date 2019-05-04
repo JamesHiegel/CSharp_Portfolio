@@ -1,7 +1,7 @@
 ﻿// SOURCE: https://www.c-sharpcorner.com/blogs/merge-sorting-algorithm-in-c-sharp1
 // AUTHOR: Abhay Shanker
 
-// FILENAME: MergeSort_orig.cs
+// FILENAME: MergeSort.cs
 // PURPOSE: Demonstrate a merge sort on an integer array.
 // STUDENT: James Hiegel
 
