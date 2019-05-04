@@ -6,9 +6,10 @@
 // STUDENT: James Hiegel
 
 // STYLE MODIFICATIONS: 
+// Added comments describing what each method and small blocks of code do.
 
 // FUNCTIONAL MODIFICATIONS:
-
+// None
 
 // Conceptually, a merge sort works as follows :
 // Divide the unsorted list into n sublists, each containing 1 element
