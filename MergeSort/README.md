@@ -1,13 +1,16 @@
 # Merge Sort
 
-Example program that utilizes merge sort to sort an integer array.
+Example program that utilizes merge sort to sort an integer list.
 
 ## Getting Started
 
 Download, and then compile and run in your favorite editor.
 
-## 
-![]()
+## Unsorted list of integers
+![unsorted list](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MergeSort/img/origList.PNG)
+
+## Sorted list of integers
+![sorted list](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MergeSort/img/sortedList.PNG)
 
 ## Authors
 
