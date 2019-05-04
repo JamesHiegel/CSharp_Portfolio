@@ -11,9 +11,9 @@ Download, and then compile and run in your favorite editor.
 
 ## Authors
 
-* **Abhay Shanker** - *Original author *
+* **Unknown** - *Original author *
 * **James Hiegel** - *Added comments and additional functionality to original program*
 
 ## Source
 
-https://www.c-sharpcorner.com/blogs/merge-sorting-algorithm-in-c-sharp1
+https://www.w3resource.com/csharp-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-7.php
