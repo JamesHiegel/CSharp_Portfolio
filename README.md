@@ -10,10 +10,10 @@ If you are using Visual Studio each program folder is saved as a seperate projec
 
 ## Categories
 
-| Rewritten Programs | Commented Programs |
-|---					 |---					  |
-| [NumberGuessingGame](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame) | [LinkedLists](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) |
-| | [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) |
+| Commented Programs | | Rewritten Programs |
+| --- |	--- | --- |
+| [LinkedLists](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) | [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) | [NumberGuessingGame](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame) |
+
 
 ## Built With
 
