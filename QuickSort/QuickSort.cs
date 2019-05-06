@@ -17,7 +17,7 @@
 
 using System;
 
-namespace QuickSort
+namespace JJH
 {
     class QuickSort
     {

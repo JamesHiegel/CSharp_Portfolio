@@ -19,7 +19,7 @@
 
 using System;
 
-namespace NumberGuessingGame
+namespace JJH
 {
     // This program randomly generates a number between 1 and 100. Then prompts the user
     // to guess a number and provides feedback if the guess is higher or lower.  Once the user 

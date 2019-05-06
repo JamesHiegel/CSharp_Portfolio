@@ -28,7 +28,7 @@
 using System;
 using System.Text;
 
-namespace QueueAsLinkedList
+namespace JJH
 {
     public class LinkedListQueue
     {

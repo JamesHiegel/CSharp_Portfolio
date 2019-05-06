@@ -22,7 +22,7 @@
 // list and demonstrates various operations on those lists.
 using System;
 
-namespace LinkedLists
+namespace JJH
 {
     public class LinkedLists
     {
