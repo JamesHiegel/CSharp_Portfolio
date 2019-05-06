@@ -6,10 +6,13 @@
 // STUDENT: James Hiegel
 
 // STYLE MODIFICATIONS: 
-//
+// Added comments to classes, methods and code blocks to describe what is occuring in the program
+// Added descriptive writelines to main method to clarify the demonstration
 
 // FUNCTIONAL MODIFICATIONS:
-//
+// Replaced instances of (top < 0) with IsEmpty().
+// Added access modifiers on classes and methods.
+// Extracted underflow checks into a seperate method
 
 // A Stack is a linear data structure. It follows LIFO(Last In First Out) pattern 
 // for Input/output. Following three basic operations are performed in the stack:
@@ -65,24 +68,38 @@ namespace JJH
     // The Stack class...
     internal class Stack
     {
+        // creates integer array with MAX size
         private static readonly int MAX = 1000;
         private int top;
         private int[] stack = new int[MAX];
 
         // Default constructor
+        // top is marked as negative number so IsEmpty method returns false
         public Stack()
         {
             top = -1;
         }
 
-        public bool IsEmpty()
+        internal bool IsEmpty()
         {
             return (top < 0);
         }
 
-        // The Push method...
-        internal bool Push(int data)
+        // Helper method that consolidates some repetive code
+        internal bool CheckForUnderflow()
         {
+            if (IsEmpty())
+            {
+                Console.WriteLine("Stack Underflow");
+                return true;
+            }
+            return false;
+        }
+
+            // The Push method increments the top variable and adds an integer to the array at the top index
+            internal bool Push(int data)
+        {
+            // checks to see if stack is full
             if (top >= MAX)
             {
                 Console.WriteLine("Stack Overflow");
@@ -90,48 +107,46 @@ namespace JJH
             }
             else
             {
+                // since top starts at -1, pre-increment is used to set correct array index
                 stack[++top] = data;
                 return true;
             }
         }
 
-        // The Pop method...
+        // The Pop method returns the value at the top of the stack
         internal int Pop()
         {
-            if (top < 0)
+            // checks to see if stack is empty
+            if (!CheckForUnderflow())
             {
-                Console.WriteLine("Stack Underflow");
-                return 0;
-            }
-            else
-            {
+                // saves the value of the top index
+                // post -increment moves top to previous index in the array
                 int value = stack[top--];
                 return value;
             }
+            else
+            {
+                return 0;
+            }
         }
 
-        // The Peek method...
+        // The Peek method returns the value at the top index, without remove it from the stack
         internal void Peek()
         {
-            if (top < 0)
+            // checks to see if stack is empty
+            if (!CheckForUnderflow())
             {
-                Console.WriteLine("Stack Underflow");
-                return;
-            }
-            else
                 Console.WriteLine("The topmost element of Stack is : {0}", stack[top]);
+            }
         }
 
-        // The PrintStack method...
+        // The PrintStack method displays the contents of the stack to the console
         internal void PrintStack()
         {
-            if (top < 0)
+            // checks to see if stack is empty
+            if (!CheckForUnderflow())
             {
-                Console.WriteLine("Stack Underflow");
-                return;
-            }
-            else
-            {
+                // iterates over array, outputting values
                 Console.WriteLine("Items in the Stack are :");
                 for (int i = top; i >= 0; i--)
                 {
