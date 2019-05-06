@@ -29,15 +29,35 @@ namespace JJH
         // The Main method...
         public static void Main(string[] args)
         {
+            // creates an empty stack for demonstration purposes
             Stack myStack = new Stack();
 
+            Console.WriteLine("Is the stack empty?: {0}\n", myStack.IsEmpty());
+
+            // adds multiple values to the stack
+            Console.WriteLine("Let's add some data to it.\nAdding...");
             myStack.Push(10);
             myStack.Push(20);
             myStack.Push(30);
             myStack.Push(40);
+
+            Console.WriteLine("\nIs the stack empty?: {0}", myStack.IsEmpty());
+
+            // displays contents of stack to the console
             myStack.PrintStack();
+
+            Console.WriteLine("\nLet's peek at the top element of the stack.");
+
+            // displays the top element of the stack, without removing it
             myStack.Peek();
+
+            // pops the topmost element off the stack
+            Console.WriteLine("\nNow let's pop the top element.");
             Console.WriteLine("Item popped from Stack : {0}", myStack.Pop());
+
+            Console.WriteLine("\nWhat's in the stack now?");
+
+            // displays the contents of the stack showing the new stack
             myStack.PrintStack();
         }
     }
@@ -45,9 +65,9 @@ namespace JJH
     // The Stack class...
     internal class Stack
     {
-        static readonly int MAX = 1000;
-        int top;
-        int[] stack = new int[MAX];
+        private static readonly int MAX = 1000;
+        private int top;
+        private int[] stack = new int[MAX];
 
         // Default constructor
         public Stack()
@@ -55,8 +75,7 @@ namespace JJH
             top = -1;
         }
 
-        // The IsEmpty method...
-        bool IsEmpty()
+        public bool IsEmpty()
         {
             return (top < 0);
         }
