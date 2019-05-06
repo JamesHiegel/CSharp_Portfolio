@@ -2,7 +2,7 @@
 
 namespace QuickSort
 {
-    class Program
+    class QuickSort
     {
         static void Main(string[] args)
         {
