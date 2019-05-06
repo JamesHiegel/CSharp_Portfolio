@@ -1,5 +1,5 @@
 ﻿// SOURCE: https://www.geeksforgeeks.org/queue-set-2-linked-list-implementation/
-// AUTHORS: Gaurav Kumar, Bhupendra Rathore
+// AUTHORS: Rajput-Ji, Gaurav Kumar, Bhupendra Rathore
 
 // FILENAME: LinkedListQueue.cs
 // PURPOSE: Implement a queue utilizing a linked list data structure.
@@ -41,5 +41,22 @@ namespace QueueAsLinkedList
 
             Console.WriteLine("Dequeued item is " + q.dequeue().key);
         }
+
+        // A linked list (LL) node to store a queue entry 
+        class QNode
+        {
+            public int key;
+            public QNode next;
+
+            // constructor to create  
+            // a new linked list node 
+            public QNode(int key)
+            {
+                this.key = key;
+                this.next = null;
+            }
+        }
+
+
     }
 }
