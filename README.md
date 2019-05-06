@@ -13,7 +13,7 @@ If you are using Visual Studio each program folder is saved as a seperate projec
 ### Commented Programs
 
 | --- |	--- | --- |
-| [LinkedLists](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) | [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) | |
+| [LinkedLists](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) | [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) | [QuickSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/QuickSort) |
 
 ### Rewritten Programs
 
