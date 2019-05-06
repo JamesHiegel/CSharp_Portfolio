@@ -30,7 +30,16 @@ namespace QueueAsLinkedList
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Queue q = new Queue();
+            q.enqueue(10);
+            q.enqueue(20);
+            q.dequeue();
+            q.dequeue();
+            q.enqueue(30);
+            q.enqueue(40);
+            q.enqueue(50);
+
+            Console.WriteLine("Dequeued item is " + q.dequeue().key);
         }
     }
 }
