@@ -26,6 +26,24 @@ namespace QuickSort
             }
             Console.WriteLine();
         }
+
+        private static void Quick_Sort(int[] arr, int left, int right)
+        {
+            if (left < right)
+            {
+                int pivot = Partition(arr, left, right);
+
+                if (pivot > 1)
+                {
+                    Quick_Sort(arr, left, pivot - 1);
+                }
+                if (pivot + 1 < right)
+                {
+                    Quick_Sort(arr, pivot + 1, right);
+                }
+            }
+
+        }
     }
 }
 }
