@@ -6,8 +6,11 @@
 // STUDENT: James Hiegel
 
 // STYLE MODIFICATIONS: 
+// Added comments throughout program describing what is occuring in each method and code block
 
 // FUNCTIONAL MODIFICATIONS:
+// Adjusted Enqueue and Dequeue methods to utilize if-else statement and removed extraneous return statement. 
+// Added a custom ToString method to show what the queue looks like during demonstration
 
 // A Queue is a linear structure which follows a particular order in which the 
 // operations are performed.The order is First In First Out(FIFO).  A good example 
@@ -23,33 +26,54 @@
 // rate as sent) between two processes. Examples include IO Buffers, pipes, file IO, etc.
 
 using System;
+using System.Text;
 
 namespace QueueAsLinkedList
 {
-    class LinkedListQueue
+    public class LinkedListQueue
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            // creates Queue object
             Queue q = new Queue();
-            q.enqueue(10);
-            q.enqueue(20);
-            q.dequeue();
-            q.dequeue();
-            q.enqueue(30);
-            q.enqueue(40);
-            q.enqueue(50);
 
-            Console.WriteLine("Dequeued item is " + q.dequeue().key);
+            // displays empty queue
+            Console.WriteLine("Queue contents: {0}", q.ToString());
+
+            Console.WriteLine("Enqueueing elements");
+            q.Enqueue(10);
+            q.Enqueue(20);
+
+            // displays queue with two elements, showing enqueue worked
+            Console.WriteLine("Queue contents: {0}", q.ToString());
+
+            Console.WriteLine("Dequeueing elements");
+            q.Dequeue();
+            q.Dequeue();
+
+            // displays empty queue showing dequeue worked
+            Console.WriteLine("Queue contents: {0}", q.ToString());
+
+            Console.WriteLine("Enqueueing elements");
+            q.Enqueue(30);
+            q.Enqueue(40);
+            q.Enqueue(50);
+
+            // displays queue with elements in it
+            Console.WriteLine("Queue contents: {0}", q.ToString());
+
+            // displays key of queue node that has been dequeued
+            Console.WriteLine("Dequeued item is " + q.Dequeue().key);
         }
 
-        // A linked list (LL) node to store a queue entry 
-        class QNode
+        // The QNode class represents each node in the queue, it contains an integer 
+        // as the key and a reference to the next QNode in the queue
+        public class QNode
         {
             public int key;
             public QNode next;
 
-            // constructor to create  
-            // a new linked list node 
+            // constructor to create a new node
             public QNode(int key)
             {
                 this.key = key;
@@ -57,55 +81,99 @@ namespace QueueAsLinkedList
             }
         }
 
-        // A class to represent a queue. The queue front stores 
-        // the front node of LL and rear stores ths last node of LL 
-        class Queue
+        // The Queue class utilizes the QNode class to create a queue
+        public class Queue
         {
+            // references to the nodes the are at the front and rear of the queue
             QNode front, rear;
 
+            // constructor that points both the front and rear variable to the same node and then sets it to null
             public Queue()
             {
                 this.front = this.rear = null;
             }
 
-            // Method to add an key to the queue.  
-            public void enqueue(int key)
+            // The enqueue method adds a new node at the end of the queue.
+            public void Enqueue(int key)
             {
 
-                // Create a new LL node 
+                // Create a new queue node 
                 QNode temp = new QNode(key);
 
-                // If queue is empty, then new  
-                // node is front and rear both 
+                // If queue is empty then new node is both at the front and rear of the queue
                 if (this.rear == null)
                 {
                     this.front = this.rear = temp;
-                    return;
                 }
-
-                // Add the new node at the 
-                // end of queue and change rear 
-                this.rear.next = temp;
-                this.rear = temp;
+                else
+                // otherwise add new node to the end of the queue.
+                {
+                    this.rear.next = temp;
+                    this.rear = temp;
+                }
             }
 
-            // Method to remove an key from queue.  
-            public QNode dequeue()
+            // The Dequeue method returns the front node of the queue and then removes it from the queue. 
+            public QNode Dequeue()
             {
                 // If queue is empty, return NULL. 
                 if (this.front == null)
                     return null;
 
-                // Store previous front and  
-                // move front one node ahead 
+                // Store current front node
                 QNode temp = this.front;
-                this.front = this.front.next;
 
-                // If front becomes NULL,  
-                // then change rear also as NULL 
-                if (this.front == null)
-                    this.rear = null;
+                // If the next node in the queue is null,
+                // then set the front and rear to null
+                if (this.front.next == null)
+                {
+                    this.front = this.rear = null;
+                }
+                else
+                // Advance the front node to the next node in the queue
+                {
+
+                    this.front = this.front.next;
+                }
+
                 return temp;
+            }
+
+            // The ToString method prints out the contents of the queue to the console
+            public override string ToString()
+            {
+                // if front node is null, then queue is empty
+                if (front == null)
+                {
+                    return "[Empty]";
+                }
+                // otherwise iterate through queue and appends values to stringbuilder object
+                else
+                {
+                    StringBuilder sb = new StringBuilder();
+
+                    // adds open bracket and front key value
+                    sb.Append("[");
+                    sb.Append(front.key);
+
+                    // saves reference to next node
+                    QNode temp = front.next;
+
+                    // loops until next node is null
+                    while (temp != null)
+                    {
+                        // adds key values to stringbuilder oject
+                        sb.Append(", ");
+                        sb.Append(temp.key);
+
+                        // advances node to the next one in the queue
+                        temp = temp.next;
+                    }
+
+                    // adds close bracket and returns stringbuilder object
+                    sb.Append("]");
+                    return sb.ToString();
+                }
             }
         }
     }
