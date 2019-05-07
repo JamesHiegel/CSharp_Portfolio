@@ -14,12 +14,12 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 | --- |	--- | --- |
 | [LinkedLists](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) | [QueueAsLinkedList](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/QueueAsLinkedList) | [StackAsArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StackAsArray) |
-| [BinarySearchTree](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/BinarySearchTree) | [DictionaryDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DictionaryDemo) |
+| [BinarySearchTree](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/BinarySearchTree) | [DictionaryDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DictionaryDemo) | |
 
 ### Algorithms
 
 | --- |	--- | --- |
-| [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) | [QuickSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/QuickSort) |
+| [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) | [QuickSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/QuickSort) | |
 
 ### Games
 
@@ -30,7 +30,11 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 | --- |	--- | --- |
 | [CeasarCipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) | [MostFreqElementInArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MostFreqElementInArray) | [ReverseArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) |
-| [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/SumOfDigits) |
+
+### Fundamentals
+
+| --- |	--- | --- |
+| [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) | | |
 
 ## Built With
 
