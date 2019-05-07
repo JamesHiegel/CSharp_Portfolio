@@ -12,35 +12,40 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 ### Data Structures
 
-| --- |	--- | --- |
-| [LinkedLists](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) | [QueueAsLinkedList](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/QueueAsLinkedList) | [StackAsArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StackAsArray) |
-| [BinarySearchTree](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/BinarySearchTree) | [DictionaryDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DictionaryDemo) | |
+| --- |	--- |
+| [LinkedLists](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) | [QueueAsLinkedList](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/QueueAsLinkedList) |
+| [StackAsArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StackAsArray) | [BinarySearchTree](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/BinarySearchTree) |
+|[DictionaryDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DictionaryDemo) | |
 
 ### Algorithms
 
-| --- |	--- | --- |
-| [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) | [QuickSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/QuickSort) | [BinarySearchRecursive](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BinarySearchRecursive) |
-| [SearchSortedRotatedArray](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/SearchSortedRotatedArray) | [HeapSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/HeapSort) | |
+| --- |	--- |
+| [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) | [QuickSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/QuickSort) |
+| [BinarySearchRecursive](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BinarySearchRecursive) | [SearchSortedRotatedArray](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/SearchSortedRotatedArray) 
+| [HeapSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/HeapSort) | |
 
 ### Games
 
-| --- |	--- | --- |
-| [NumberGuessingGame](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame) | [Hangman](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/Hangman) | [MagicEightBall](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MagicEightBall) |
+| --- |	--- |
+| [NumberGuessingGame](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame) | [Hangman](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/Hangman) |
+| [MagicEightBall](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MagicEightBall) | |
 
 ### Challenges
 
-| --- |	--- | --- |
-| [MostFreqElementInArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MostFreqElementInArray) | [ReverseArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) | |
+| --- |	--- |
+| [MostFreqElementInArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MostFreqElementInArray) | [ReverseArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) |
+
 
 ### Interesting
 
-| --- |	--- | --- |
+| --- |	--- |
 | [CeasarCipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) | [StringSimilarity](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringSimilarity) |
 
 ### Fundamentals
 
-| --- |	--- | --- |
-| [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) | [StringBuilderDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringBuilderDemo) | [RotateArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/RotateArray) |
+| --- |	--- |
+| [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) | [StringBuilderDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringBuilderDemo) |
+| [RotateArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/RotateArray) | |
 
 ## Built With
 
