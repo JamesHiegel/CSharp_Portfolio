@@ -1,4 +1,4 @@
-# Dictionary Class Demo
+# Hangman Game
 
 Example program that runs a hangman game.
 
@@ -7,7 +7,7 @@ Example program that runs a hangman game.
 Download, and then compile and run in your favorite editor.
 
 ## Console Output
-![create dictionary](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/Hangman/img/running.PNG)
+![hangman game](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/Hangman/img/running.PNG)
 
 ## Authors
 
