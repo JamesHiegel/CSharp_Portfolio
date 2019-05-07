@@ -20,7 +20,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 ### Rewritten Programs
 
 | --- |	--- | --- |
-| [NumberGuessingGame](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame) | [CeasarCipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) | |
+| [NumberGuessingGame](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame) | [CeasarCipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) | [MostFreqElementInArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MostFreqElementInArray) |
 
 ## Built With
 
