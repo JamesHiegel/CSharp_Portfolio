@@ -22,9 +22,10 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 * [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) 
 * [QuickSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/QuickSort) 
+* [HeapSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/HeapSort) 
+* [BucketSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BucketSort) 
 * [BinarySearchRecursive](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BinarySearchRecursive) 
 * [SearchSortedRotatedArray](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/SearchSortedRotatedArray) 
-* [HeapSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/HeapSort) 
 
 ### Games
 
@@ -36,7 +37,6 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 * [MostFreqElementInArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MostFreqElementInArray) 
 * [ReverseArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) 
-
 
 ### Interesting
 
