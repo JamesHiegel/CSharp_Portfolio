@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchRecursive", "Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchSortedRotatedArray", "SearchSortedRotatedArray\SearchSortedRotatedArray.csproj", "{649C3ACE-1A2C-42D1-9E5B-0ADF84962F1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapSort", "HeapSort\HeapSort.csproj", "{19E8C08D-E0E4-4B32-87A3-A463A232EC7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{649C3ACE-1A2C-42D1-9E5B-0ADF84962F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{649C3ACE-1A2C-42D1-9E5B-0ADF84962F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{649C3ACE-1A2C-42D1-9E5B-0ADF84962F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E8C08D-E0E4-4B32-87A3-A463A232EC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E8C08D-E0E4-4B32-87A3-A463A232EC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E8C08D-E0E4-4B32-87A3-A463A232EC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E8C08D-E0E4-4B32-87A3-A463A232EC7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
