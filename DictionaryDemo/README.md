@@ -17,7 +17,7 @@ Download, and then compile and run in your favorite editor.
 
 ## Authors
 
-* **Mahesh Chand** - *Original authors *
+* **Mahesh Chand** - *Original author*
 * **James Hiegel** - *Added comments and additional functionality to original program*
 
 ## Source

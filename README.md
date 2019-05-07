@@ -6,7 +6,7 @@ This repository contains annotated and rewritten C# programs that demonstrate my
 
 Each program is located in its own folder, if I have rewritten the program the original version is saved as "\_orig.cs". Source code can be viewed in the web browser or your favorite editor.
 
-If you are using Visual Studio each program folder is saved as a seperate project and the repository is saved as a solution.
+If you are using Visual Studio each program folder is saved as a separate project and the repository is saved as a solution.
 
 ## Categories
 
