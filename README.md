@@ -15,7 +15,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 | --- |	--- | --- |
 | [LinkedLists](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) | [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) | [QuickSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/QuickSort) |
 | [QueueAsLinkedList](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/QueueAsLinkedList) | [StackAsArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StackAsArray) | [BinarySearchTree](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/BinarySearchTree) |
-| [DictionaryDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DictionaryDemo) | | |
+| [DictionaryDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DictionaryDemo) | [ReverseArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) | |
 
 ### Rewritten Programs
 
