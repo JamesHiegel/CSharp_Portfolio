@@ -34,7 +34,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 ### Fundamentals
 
 | --- |	--- | --- |
-| [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) | | |
+| [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) | [StringBuilderDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringBuilderDemo) | |
 
 ## Built With
 

@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfDigits", "SumOfDigits\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReplaceMethod", "StringReplaceMethod\StringReplaceMethod.csproj", "{94492A6A-7544-46CB-AFE5-372DAE78AE10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderDemo", "StringBuilderDemo\StringBuilderDemo.csproj", "{B468A62E-C312-4EA5-ABD2-E44496EFC206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{94492A6A-7544-46CB-AFE5-372DAE78AE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94492A6A-7544-46CB-AFE5-372DAE78AE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94492A6A-7544-46CB-AFE5-372DAE78AE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B468A62E-C312-4EA5-ABD2-E44496EFC206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B468A62E-C312-4EA5-ABD2-E44496EFC206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B468A62E-C312-4EA5-ABD2-E44496EFC206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B468A62E-C312-4EA5-ABD2-E44496EFC206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
