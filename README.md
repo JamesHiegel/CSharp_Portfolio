@@ -20,6 +20,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 | --- |	--- | --- |
 | [MergeSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) | [QuickSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/QuickSort) | [BinarySearchRecursive](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BinarySearchRecursive) |
+| [SearchSortedRotatedArray](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/SearchSortedRotatedArray) | | |
 
 ### Games
 
