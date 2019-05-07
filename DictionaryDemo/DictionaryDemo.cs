@@ -10,6 +10,7 @@
 
 // FUNCTIONAL MODIFICATIONS:
 // Extracted displaying the contents of the dictionary into a method.
+// Added writelines to output text on console describing what is happening
 
 // The Dictionary type represents a collection of keys and values pair of data.
 // The C# Dictionary class defined in the System.Collections.Generic namespace 
