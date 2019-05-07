@@ -10,6 +10,8 @@
 // Used blank lines to make program easier to read
 
 // FUNCTIONAL MODIFICATIONS:
+// Combined seperate methods into one class
+// Created two examples to demonstrate what similarity score looks like
 
 using System;
 
