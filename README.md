@@ -29,12 +29,12 @@ If you are using Visual Studio each program folder is saved as a separate projec
 ### Challenges
 
 | --- |	--- | --- |
-| [CeasarCipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) | [MostFreqElementInArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MostFreqElementInArray) | [ReverseArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) |
+| [MostFreqElementInArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MostFreqElementInArray) | [ReverseArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) | |
 
 ### Interesting
 
 | --- |	--- | --- |
-|
+| [CeasarCipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) | [StringSimilarity](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringSimilarity) |
 
 ### Fundamentals
 

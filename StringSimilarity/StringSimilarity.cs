@@ -79,8 +79,7 @@ namespace JJH
                 for (int j = 1; j <= m; j++)
                 {
                     // finds min distance
-                    cost = (t.Substring(j - 1, 1) ==
-                        s.Substring(i - 1, 1) ? 0 : 1);
+                    cost = (t.Substring(j - 1, 1) == s.Substring(i - 1, 1) ? 0 : 1);
                     distance[i, j] = Min3(distance[i - 1, j] + 1,
                     distance[i, j - 1] + 1,
                     distance[i - 1, j - 1] + cost);
