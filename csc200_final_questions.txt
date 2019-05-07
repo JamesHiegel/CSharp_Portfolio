@@ -1,0 +1,86 @@
+﻿q01, 4, A class is a source code abstraction, a container that holds various code artifacts (let's call them "members"), that acts as a pattern for building execution time objects.  Our study guide itemized ten different types of class members most of which are variations or specializations of three basic member types.  Please name and briefly describe these three or four basic class member types?  
+
+q02, 1, What do we call the four-step process of creating an object from a class?
+
+q03, 1, the statement we use to create a new object highlights four distinct steps.  What are these four steps of creating an object?  The new operator performs the first three, and the assignment operator performs the last one:  ObjectType varname = new ConstructorName ( parameters ) ;
+
+q04, 1, For what is the constructor responsible?
+
+q05, 1, What is the constructor always named?
+
+q06, 1, Why doesn't a constructor return a value?
+
+q07, 1, Declaring an object variable creates a place to store a special kind of data that points to our new object.  What do we call this special type of data that points to objects?  It's not really a pointer, but it provides us the ability to access the newly created object.
+
+q08, 1, Encapsulation is one of the fundamental concepts of object-oriented programming.  It lets you control the data and operations within a class that are exposed to other classes.  What is the principal tool that C# provides for limiting access to a class’ data and operations by other classes?
+
+q09, 1, The problem with this mechanism is that it is either "all on" (yielding full access) or "all off" (yielding no acccess).  However, it is possible to code special "accessor" methods that can permit partial or permission based access. Traditionally, for data access, what have these two special methods been called?
+
+q10, 1, Inheritance is a method of organizing related classes. According to our textbook, what does inheritance allow you to do?
+
+q11, 1, Looking at it a bit differently, inheritance lets you factor out common data and functionality from one or more classes and inherit it or pull it in to those classes when you go to build an object from those classes.  What do we call a class that inherits data and functionality from another pre-existing class?
+
+q12, 1, What do we call a class from which other classes may inherit?
+
+q13, 1, What specifically must you do to a class to make it possible for other classes to inherit from it? (Hint: Personally, I think this is a trick question.)
+
+q14, 1, How is an abstract class different from a normal class?
+
+q15, 1, C# (and Java) do not allow for multiple inheritance.  However,  these languages do permit a class to implement multiple multiple interfaces, which gives these classes some of the benefits of multiple inheritance.  From how many classes may a class inherit?
+
+q16, 1, What does a class actually inherit from an interface?
+
+q17, 1, What does a class inherit from another class that it cannot inherit from an interface?
+
+q18, 1, Thus, in addition to inheriting from an interface (or from an abstract class, for that matter), what must the  developer do to the class before it can be used to create objects? 
+
+q20, 2, C# provides for a dozen or so data types that are built into the compiler and the code that the compiler generates (called value types).  Everything else is provided via class objects (called reference types).  What is the essential difference between value types and reference types?  Which is more efficient, and why?
+
+q21, 1, What is the difference between a variable and a constant?
+
+q22, 2, Of what two things does an arithmetic expression consist?
+
+q23, 8, These components of an arithmetic expression can be combined (or reduced) according to a series of precedence rules.  In mathematical expressions, what gets evaluated first? What gets evaluated second? What gets evaluated third? What gets evaluated last?
+
+q24, 1, What can we insert into the expression in order to change the order in which expression components are evaluated, or explicitly specify what order is intended? 
+
+q25, 1, We can use the DataType.Parse(string) static method or the DataType.TryParse(string,out result) method to convert a specified string into an equivalent numeric data value.  Why is the TryParse() method generally more convenient?
+
+q26, 2, The scope of a variable is determined by where you declare it. If you declare a variable within a method, what scope does it have, and where can it be accessed?
+
+q27, 3, If you declare a variable outside of any method, with a private access modifier,  what scope does it have, and where can it be accessed?  If you declare one of these variables (declared outside of any method), with a public access modifier, where can it additionally be accessed?
+
+q28, 3, How do we specify a string literal? How do we specify an empty string literal? How do we specify a string literal whose value is unknown?
+
+q29, 2, How do we insert a quotation mark inside a string literal? How do we insert a newline character inside a string literal?
+
+q30, 6, Relational operators compare two values and return a Boolean value.  What are the six c# relational operators and for what do they return a true value?
+
+q31, 6, C# has five logical operators, two of which are called "short-cut" operators.  What are these operators? How are the "short-cut" operators different from the normal logical operators?
+
+q32, 1, Under what conditions does the logical AND operator (not what C# calls it) return a true value?
+
+q33, 1, Under what conditions does the logical OR operator (not what C# calls it) return a true value?
+
+q34, 3, What are the three components of every well-formed loop as itemized in the c# for loop?
+
+q35, 1, What is one way of creating an infinite loop, a loop that never ends?
+
+q36, 2, What happens when you insert a continue statement into the code body of a loop? What happens when you insert a break statement into the code body of a loop?
+
+q37, 1, What does the void return type mean when placed on a method definition?
+
+q38, 1, In calling or invoking a method, what is the relationship between an argument and a parameter?
+
+q39, 2, What is the signature of a method which must be unique?  Do the names of the parameters figure into the method signature?
+
+q40, 1, What is the difference between passing parameters with "call-by-value" and "call-by-reference?" 
+
+
+
+
+
+
+
+
+
