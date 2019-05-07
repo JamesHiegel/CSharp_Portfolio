@@ -6,8 +6,10 @@
 // STUDENT: James Hiegel
 
 // STYLE MODIFICATIONS: 
+// Added comments to code blocks to explain what the code is doing.
 
 // FUNCTIONAL MODIFICATIONS:
+// Extracted displaying the contents of the dictionary into a method.
 
 // The Dictionary type represents a collection of keys and values pair of data.
 // The C# Dictionary class defined in the System.Collections.Generic namespace 
@@ -38,11 +40,7 @@ namespace JJH
             AuthorList.Add("Dinesh Beniwal", 84);
 
             Console.WriteLine("Count: {0}", AuthorList.Count);
-            foreach (var author in AuthorList)
-            {
-                Console.WriteLine("Key: {0}, Value: {1}",
-                author.Key, author.Value);
-            }
+            DisplayDictionary(AuthorList);
 
             Console.WriteLine("\nUpdating Neel Beniwal to 9 and Mahesh Chand to 20.");
 
@@ -80,7 +78,6 @@ namespace JJH
             // The Clear method deletes the entire dictionary    
             AuthorList.Clear();
             Console.WriteLine("Count: {0}", AuthorList.Count);
-
         }
 
         // Helper method that iterates over Dictionary and displays contents
