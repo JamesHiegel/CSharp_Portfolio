@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangman", "Hangman\Hangman.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicEightBall", "MagicEightBall\MagicEightBall.csproj", "{BDE28E00-DB9E-407F-AE58-228015C469A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfDigits", "SumOfDigits\SumOfDigits.csproj", "{406A5534-6640-4A6E-B931-1126E9EAD197}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{BDE28E00-DB9E-407F-AE58-228015C469A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDE28E00-DB9E-407F-AE58-228015C469A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDE28E00-DB9E-407F-AE58-228015C469A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406A5534-6640-4A6E-B931-1126E9EAD197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406A5534-6640-4A6E-B931-1126E9EAD197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406A5534-6640-4A6E-B931-1126E9EAD197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406A5534-6640-4A6E-B931-1126E9EAD197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
