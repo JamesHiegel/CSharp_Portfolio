@@ -26,6 +26,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [BucketSort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BucketSort) 
 * [BinarySearchRecursive](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BinarySearchRecursive) 
 * [SearchSortedRotatedArray](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/SearchSortedRotatedArray) 
+* [HashtablePhonebook]()
 
 ### Design Pattern
 
@@ -42,11 +43,15 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [MostFreqElementInArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MostFreqElementInArray) 
 * [ReverseArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) 
 * [PowerOfTwo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PowerOfTwo) 
+* [LargestContiguousSum]()
+* [ReverseWords]()
+* [CountLettersDigitsSpecial]()
 
 ### Interesting
 
 * [CeasarCipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) 
 * [StringSimilarity](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringSimilarity) 
+* [EightQueens]()
 
 ### Basics
 
@@ -57,6 +62,23 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [PasswordChecker](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PasswordChecker)
 * [CopyPartOfArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CopyPartOfArray)
 * [SingleException](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/SingleException)
+* [MultipleException]()
+* [ShuffleArray]()
+* [OddOrEven]()
+* [MatrixAddition]()
+* [StringReader]()
+* [BranchesAndLoops]()
+* [GetFileList]()
+* [GetFileTime]()
+* [BigEndianToLittleEndian]()
+* [CalculateAcceleration]()
+* [FahrenheitToCelsius]()
+* [DaysToWeeks]()
+* [DecimalToBinary]()
+* [CalculateAreaOfCircle]()
+* [PrimeNumber]()
+* [WriteArrayToFile]()
+* [Params]()
 
 ## Built With
 
