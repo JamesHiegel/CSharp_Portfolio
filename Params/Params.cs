@@ -10,7 +10,7 @@
 // Used blank lines to make program easier to read
 
 // FUNCTIONAL MODIFICATIONS:
-// None
+// Added additional example and more descriptive console output
 
 /*
  * C# program to illustrate the use of params keyword 

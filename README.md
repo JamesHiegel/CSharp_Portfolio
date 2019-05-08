@@ -76,7 +76,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [DaysToWeeks]()
 * [DecimalToBinary]()
 * [CalculateAreaOfCircle]()
-* [PrimeNumber]()
+* [PrimeNumber](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PrimeNumber)
 * [WriteArrayToFile]()
 * [Params](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/Params)
 
