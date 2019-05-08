@@ -47,13 +47,14 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [CeasarCipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) 
 * [StringSimilarity](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringSimilarity) 
 
-### Fundamentals
+### Basics
 
 * [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) 
 * [StringBuilderDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringBuilderDemo) 
 * [RotateArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/RotateArray)
 * [ElectricityBill](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ElectricityBill)
 * [PasswordChecker](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PasswordChecker)
+* [CopyPartOfArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CopyPartOfArray)
 
 ## Built With
 
