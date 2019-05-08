@@ -1,7 +1,7 @@
 ﻿// SOURCE: https://www.sanfoundry.com/csharp-program-convert-decimal-binary/
 // AUTHOR: Manish Bhojasia
 // FILENAME: DecimalToBinary.cs
-// PURPOSE: C# Program to Convert a Given Number of Days in terms of Years, Weeks & Days.
+// PURPOSE: C# Program to Convert Decimal to Binary.
 // STUDENT: James Hiegel
 // DATE: 08 May 2019
 
