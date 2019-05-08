@@ -56,6 +56,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [ElectricityBill](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ElectricityBill)
 * [PasswordChecker](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PasswordChecker)
 * [CopyPartOfArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CopyPartOfArray)
+* [SingleException](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/SingleException)
 
 ## Built With
 
