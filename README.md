@@ -75,7 +75,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [BigEndianToLittleEndian]()
 * [CalculateAcceleration](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CalculateAcceleration)
 * [FahrenheitToCelsius]()
-* [DaysToWeeks]()
+* [DaysToWeeks](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DaysToWeeks)
 * [DecimalToBinary]()
 * [CalculateAreaOfCircle](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CalculateAreaOfCircle)
 * [WriteArrayToFile]()
