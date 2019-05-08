@@ -73,13 +73,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringReader", "StringReade
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWords", "ReverseWords\ReverseWords.csproj", "{FDAF6792-1A3C-4ECE-A14D-2D095711D1A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BranchesAndLoops", "BranchesAndLoops\BranchesAndLoops.csproj", "{AE061616-A165-4F60-BEC9-523BDCA44188}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetFileList", "GetFileList\GetFileList.csproj", "{24D6DF42-5DDE-4229-A2B0-2E628783F13A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetFileTime", "GetFileTime\GetFileTime.csproj", "{214BBF65-7D4B-4701-AD6C-47B42ACF083A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigEndianToLittleEndian", "BigEndianToLittleEndian\BigEndianToLittleEndian.csproj", "{4E38F4AD-858F-43CC-B4AA-B2EE95DF4AF7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateAcceleration", "CalculateAcceleration\CalculateAcceleration.csproj", "{E89188A7-0201-41F4-89B1-D128B1F93254}"
 EndProject
@@ -103,9 +99,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WriteArrayToFile", "WriteAr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Params", "Params\Params.csproj", "{537AD43F-4DE5-449E-9169-4538442E4CFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfIntegers", "SumOfIntegers\SumOfIntegers.csproj", "{288F0E1B-407C-46F4-8D7D-566D7EFE7EA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfIntegers", "SumOfIntegers\SumOfIntegers.csproj", "{288F0E1B-407C-46F4-8D7D-566D7EFE7EA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication", "MatrixMultiplication\MatrixMultiplication.csproj", "{F2FDE63E-023A-4053-9A2F-F16A8C58ADE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixMultiplication", "MatrixMultiplication\MatrixMultiplication.csproj", "{F2FDE63E-023A-4053-9A2F-F16A8C58ADE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,10 +249,6 @@ Global
 		{FDAF6792-1A3C-4ECE-A14D-2D095711D1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDAF6792-1A3C-4ECE-A14D-2D095711D1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDAF6792-1A3C-4ECE-A14D-2D095711D1A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE061616-A165-4F60-BEC9-523BDCA44188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE061616-A165-4F60-BEC9-523BDCA44188}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE061616-A165-4F60-BEC9-523BDCA44188}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE061616-A165-4F60-BEC9-523BDCA44188}.Release|Any CPU.Build.0 = Release|Any CPU
 		{24D6DF42-5DDE-4229-A2B0-2E628783F13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{24D6DF42-5DDE-4229-A2B0-2E628783F13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24D6DF42-5DDE-4229-A2B0-2E628783F13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -265,10 +257,6 @@ Global
 		{214BBF65-7D4B-4701-AD6C-47B42ACF083A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{214BBF65-7D4B-4701-AD6C-47B42ACF083A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{214BBF65-7D4B-4701-AD6C-47B42ACF083A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E38F4AD-858F-43CC-B4AA-B2EE95DF4AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E38F4AD-858F-43CC-B4AA-B2EE95DF4AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E38F4AD-858F-43CC-B4AA-B2EE95DF4AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E38F4AD-858F-43CC-B4AA-B2EE95DF4AF7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E89188A7-0201-41F4-89B1-D128B1F93254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E89188A7-0201-41F4-89B1-D128B1F93254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E89188A7-0201-41F4-89B1-D128B1F93254}.Release|Any CPU.ActiveCfg = Release|Any CPU

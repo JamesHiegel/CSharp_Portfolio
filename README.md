@@ -44,6 +44,8 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [ReverseArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) 
 * [PowerOfTwo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PowerOfTwo) 
 * [SumOfIntegers](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/SumOfIntegers)
+* [PrimeNumber](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PrimeNumber)
+* [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) 
 * [LargestContiguousSum]()
 * [ReverseWords]()
 * [CountLettersDigitsSpecial]()
@@ -56,7 +58,6 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 ### Basics
 
-* [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) 
 * [StringBuilderDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringBuilderDemo) 
 * [RotateArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/RotateArray)
 * [ElectricityBill](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ElectricityBill)
@@ -69,16 +70,14 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [MatrixAddition]()
 * [MatrixCalculation](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixCalculation)
 * [StringReader]()
-* [BranchesAndLoops]()
 * [GetFileList]()
 * [GetFileTime]()
 * [BigEndianToLittleEndian]()
-* [CalculateAcceleration]()
+* [CalculateAcceleration](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CalculateAcceleration)
 * [FahrenheitToCelsius]()
 * [DaysToWeeks]()
 * [DecimalToBinary]()
 * [CalculateAreaOfCircle]()
-* [PrimeNumber](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PrimeNumber)
 * [WriteArrayToFile]()
 * [Params](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/Params)
 

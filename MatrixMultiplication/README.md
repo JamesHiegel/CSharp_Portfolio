@@ -7,7 +7,7 @@ Example program that multiplies two matrices using rectangular arrays.
 Download, and then compile and run in your favorite editor.
 
 ## Multiply two 2x2 matricies
-![Multiply two 2x2 matr](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixMultiplication/img/running.PNG)
+![Multiply two 2x2 matricies](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixMultiplication/img/running.PNG)
 
 ## Authors
 
