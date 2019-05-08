@@ -78,7 +78,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [CalculateAreaOfCircle]()
 * [PrimeNumber]()
 * [WriteArrayToFile]()
-* [Params]()
+* [Params](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/Params)
 
 ## Built With
 
