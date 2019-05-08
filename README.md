@@ -53,6 +53,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [StringBuilderDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringBuilderDemo) 
 * [RotateArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/RotateArray)
 * [ElectricityBill](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ElectricityBill)
+* [PasswordChecker](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PasswordChecker)
 
 ## Built With
 

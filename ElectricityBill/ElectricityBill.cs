@@ -12,7 +12,6 @@
 // FUNCTIONAL MODIFICATIONS:
 // Renamed variables to be clearer on what they are.
 // Replaced Convert with TryParse.
-
 using System;
 
 namespace JJH
