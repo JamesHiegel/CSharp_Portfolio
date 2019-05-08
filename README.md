@@ -27,6 +27,10 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [BinarySearchRecursive](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BinarySearchRecursive) 
 * [SearchSortedRotatedArray](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/SearchSortedRotatedArray) 
 
+### Design Pattern
+
+* [Decorator](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/Decorator)
+
 ### Games
 
 * [NumberGuessingGame](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame) 

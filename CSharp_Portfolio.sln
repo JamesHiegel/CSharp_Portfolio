@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapSort", "HeapSort\HeapSo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BucketSort", "BucketSort\BucketSort.csproj", "{2B6D684B-E293-4241-AB56-946B1A384533}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{F3D11F47-FA28-4C90-A09F-6C80F10CFE60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{2B6D684B-E293-4241-AB56-946B1A384533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B6D684B-E293-4241-AB56-946B1A384533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B6D684B-E293-4241-AB56-946B1A384533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D11F47-FA28-4C90-A09F-6C80F10CFE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D11F47-FA28-4C90-A09F-6C80F10CFE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D11F47-FA28-4C90-A09F-6C80F10CFE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D11F47-FA28-4C90-A09F-6C80F10CFE60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
