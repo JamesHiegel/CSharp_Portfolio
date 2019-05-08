@@ -71,7 +71,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [MatrixCalculation](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixCalculation)
 * [StringReader]()
 * [GetFileList](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/GetFileList)
-* [GetFileTime]()
+* [GetFileTime](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/GetFileTime)
 * [CalculateAcceleration](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CalculateAcceleration)
 * [FahrenheitToCelsius](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/FahrenheitToCelsius)
 * [DaysToWeeks](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DaysToWeeks)
