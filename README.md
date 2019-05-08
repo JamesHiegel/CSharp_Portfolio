@@ -48,7 +48,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) 
 * [LargestContiguousSum]()
 * [ReverseWords]()
-* [CountLettersDigitsSpecial]()
+* [CountLettersDigitsSpecial](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CountLettersDigitsSpecial)
 
 ### Interesting
 
