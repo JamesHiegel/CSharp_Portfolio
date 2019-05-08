@@ -66,7 +66,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [SingleException](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/SingleException)
 * [MultipleException]()
 * [ShuffleArray]()
-* [OddOrEven]()
+* [OddOrEven](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/OddOrEven)
 * [MatrixAddition]()
 * [MatrixCalculation](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixCalculation)
 * [StringReader]()

@@ -1,6 +1,6 @@
 # Count Letters Digits Special
 
-Example program that calculates the perimeter and area of a circle.
+Example program that counts the numbers of letters, digits and special characters in a provided string.
 
 ## Getting Started
 
