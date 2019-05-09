@@ -19,7 +19,7 @@ I believe that I should receive an A for this class due to my efforts at not jus
 write basic C# programs, but more advanced topics and developmer tools. I also freely shared my 
 knowledge and learning with my classmates and learned from them as well.
 
-#### James Hiegel
-#### CSC180
-#### St. Martin's University
-#### Spring 2019
+James Hiegel
+CSC180
+St. Martin's University
+Spring 2019
