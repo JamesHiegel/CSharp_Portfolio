@@ -54,7 +54,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 * [CeasarCipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) 
 * [StringSimilarity](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringSimilarity) 
-* [EightQueens](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/EightQueens)
+* [EightQueensProblem](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/EightQueensProblem)
 
 ### Basics
 
