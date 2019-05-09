@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberGuessingGame", "NumberGuessingGame\NumberGuessingGame.csproj", "{2791DF0E-E71C-44CF-B4C0-60C6DABB6C77}"
 EndProject
@@ -69,7 +69,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOrEven", "OddOrEven\OddO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixAddition", "MatrixAddition\MatrixAddition.csproj", "{35070637-BD57-4AE4-95F5-8CE6E1E25117}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringReader", "StringReader\StringReader.csproj", "{E6A2E275-09D9-4886-9760-60F27685AFBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringReaderDemo", "StringReader\StringReaderDemo.csproj", "{E6A2E275-09D9-4886-9760-60F27685AFBC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWords", "ReverseWords\ReverseWords.csproj", "{FDAF6792-1A3C-4ECE-A14D-2D095711D1A7}"
 EndProject

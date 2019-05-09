@@ -69,7 +69,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [OddOrEven](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/OddOrEven)
 * [MatrixAddition](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixAddition)
 * [MatrixCalculation](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixCalculation)
-* [StringReader](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReader)
+* [StringReaderDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReaderDemo)
 * [GetFileList](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/GetFileList)
 * [GetFileTime](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/GetFileTime)
 * [CalculateAcceleration](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CalculateAcceleration)
