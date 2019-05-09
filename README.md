@@ -47,14 +47,14 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [PrimeNumber](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PrimeNumber)
 * [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) 
 * [LargestContiguousSum](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LargestContiguousSum)
-* [ReverseWords]()
+* [ReverseWords](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseWords)
 * [CountLettersDigitsSpecial](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CountLettersDigitsSpecial)
 
 ### Interesting
 
 * [CeasarCipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) 
 * [StringSimilarity](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringSimilarity) 
-* [EightQueens]()
+* [EightQueens](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/EightQueens)
 
 ### Basics
 
@@ -64,12 +64,12 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [PasswordChecker](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PasswordChecker)
 * [CopyPartOfArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CopyPartOfArray)
 * [SingleException](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/SingleException)
-* [MultipleException]()
+* [MultipleException](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MultipleException)
 * [ShuffleArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ShuffleArray)
 * [OddOrEven](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/OddOrEven)
 * [MatrixAddition](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixAddition)
 * [MatrixCalculation](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixCalculation)
-* [StringReader]()
+* [StringReader](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReader)
 * [GetFileList](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/GetFileList)
 * [GetFileTime](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/GetFileTime)
 * [CalculateAcceleration](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CalculateAcceleration)
@@ -77,7 +77,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [DaysToWeeks](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DaysToWeeks)
 * [DecimalToBinary](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DecimalToBinary)
 * [CalculateAreaOfCircle](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CalculateAreaOfCircle)
-* [WriteArrayToFile]()
+* [WriteArrayToFile](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/WriteArrayToFile)
 * [Params](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/Params)
 
 ## Built With
