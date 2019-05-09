@@ -46,7 +46,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [SumOfIntegers](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/SumOfIntegers)
 * [PrimeNumber](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PrimeNumber)
 * [SumOfDigits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) 
-* [LargestContiguousSum]()
+* [LargestContiguousSum](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LargestContiguousSum)
 * [ReverseWords]()
 * [CountLettersDigitsSpecial](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CountLettersDigitsSpecial)
 
