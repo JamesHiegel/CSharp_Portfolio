@@ -102,4 +102,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [W3Resource](https://www.w3resource.com/csharp-exercises/)
 
 #### Bill Of Accomplishment
-[Link](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BillOfAccomplishment)
+* [Link](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BillOfAccomplishment)
