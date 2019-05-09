@@ -9,7 +9,7 @@ I was able to expanded my knowledge of using GitHub to host my programs and how 
 
 I believe that I should receive an A for this class due to my efforts at not just learning how to write basic C# programs, but more advanced topics and developmer tools. I also freely shared my knowledge and learning with my classmates and learned from them as well.
 
-James Hiegel
-CSC180
-St. Martin's University
+James Hiegel  
+CSC180  
+St. Martin's University  
 Spring 2019
