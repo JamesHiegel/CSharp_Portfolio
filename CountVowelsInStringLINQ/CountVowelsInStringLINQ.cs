@@ -17,9 +17,10 @@ namespace JJH
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("This program returns the number of vowels in a sentence.");
+            Utility.Menu();
         }
     }
+
 
     public class Utility
     {
@@ -32,6 +33,33 @@ namespace JJH
                                       select c;
 
             return query.Count();
+        }
+
+        public static void Menu()
+        {
+            string input;
+
+            do
+            {
+                Console.WriteLine("This program returns the number of vowels in a sentence.");
+                Console.WriteLine("Enter a sentence to be counted:");
+                input = Console.ReadLine();
+
+                Console.WriteLine();
+
+                Console.WriteLine("There are {0} characters in the sentence, and {1} vowels.", input.Length, Utility.CountVowels(input));
+
+                Console.WriteLine();
+
+                do
+                {
+                    Console.Write("Run again? (y/n):");
+                    input = Console.ReadLine();
+                } while (!(input == "n" || input == "y"));
+
+                Console.WriteLine();
+
+            } while (input == "y");
         }
     }
 }
