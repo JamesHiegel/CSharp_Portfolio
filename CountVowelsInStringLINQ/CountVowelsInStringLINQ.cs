@@ -3,17 +3,15 @@
 // PURPOSE: Count the number of vowels in a string, both uppercase and lowercase.
 // DATE: 18 May 2019
 
-// This program prompts a user to enter a sentence and then counts the 
-// uppercase and lowercase vowels in the sentence. The program then 
-// outputs the number of vowels
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace JJH
 {
-    // driver class
+    // This program prompts a user to enter a sentence and then counts the 
+    // uppercase and lowercase vowels in the sentence. The program then 
+    // outputs the number of vowels
     public class CountVowelsInStringLINQ
     {
         // driver method
