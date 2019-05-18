@@ -17,6 +17,7 @@ Download, and then compile and run in your favorite editor.
 
 ## Text File contents
 ![test file contents](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CountVowelsInTextFile/img/testfile.PNG)
+* contents created with generator at (https://www.lipsum.com/)
 
 ## Authors
 
