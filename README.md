@@ -34,6 +34,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 ### Challenges
 
+* [Count Vowels in a Textfile using LINQ](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CountVowelsInTextFile) 
 * [Count Vowels in a String using LINQ](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CountVowelsInStringLINQ) 
 * [Find Most Frequent Element in an Array](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MostFrequentElementInArray) 
 * [Reverse an rray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) 
