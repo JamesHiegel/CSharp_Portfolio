@@ -31,7 +31,7 @@ namespace JJH
 
     public class Utility
     {
-
+        // The Menu method displays instructions and prompts the user for input
         public static void Menu()
         {
             const int THREE = 3;
@@ -41,15 +41,17 @@ namespace JJH
             Console.Write("Enter a positive integer: ");
             string input = Console.ReadLine();
 
+            // calls the CheckPositiveInteger method to verify and convert
+            // the user input
             int number = CheckPositiveInteger(input);
 
             Console.Write("The number {0} is ", input);
 
+            // uses the CheckDivisionNoRemainder to customize the displayed message
             if (!CheckDivisionNoRemainder(number, THREE))
                 Console.Write("NOT ");
 
             Console.WriteLine("divible by {0} with no remainder.", THREE);
-
         }
 
         // The RunAgain method asks a user if they want to
