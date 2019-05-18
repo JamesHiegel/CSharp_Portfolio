@@ -68,7 +68,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [ShuffleArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ShuffleArray)
 * [OddOrEven](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/OddOrEven)
 * [MatrixAddition](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixAddition)
-* [MatrixCalculation](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixCalculation)
+* [MatrixMultiplication](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixMultiplication)
 * [StringReaderDemo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReaderDemo)
 * [GetFileList](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/GetFileList)
 * [GetFileTime](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/GetFileTime)
