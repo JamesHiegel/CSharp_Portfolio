@@ -5,6 +5,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace JJH
@@ -39,11 +40,32 @@ namespace JJH
     public class Utility
     {
         // The DisplayMenu method displays instructions to a user
-        // and captures the user's input
-        // The Menu method displays instructions and prompts the user for input
+        // and captures the user's input, then calls other methods
         public static void DisplayMenu()
         {
+            Console.WriteLine();
 
+            Console.WriteLine("Enter path and file name to a text file:");
+            string filePath = Console.ReadLine();
+
+            try
+            {
+                using (StreamReader sr = new StreamReader(filePath))
+                {
+                    while (!sr.EndOfStream)
+                    {
+                        Console.WriteLine(sr.ReadLine());
+                    }
+                }
+            }
+            catch (IOException e)
+            {
+                // displays error message when an exception is caught
+                // message is different for each subtype of FormatException
+                Console.WriteLine("\nEXCEPTION CAUGHT!");
+                Console.WriteLine(e.Message);
+                Console.WriteLine();
+            }
         }
 
         // The RunAgain method asks a user if they want to
