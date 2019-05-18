@@ -19,5 +19,25 @@ namespace JJH
         }
     }
 
+    public class Utility
+    {
+        // The CheckDivisionNoRemainder method returns true if the provided numerator 
+        // can be divided by the denominator with no remainder, otherwise the method 
+        // returns false. The method throws an exception if denominator is zero.
+        public static bool CheckDivisionNoRemainder(int numerator, int denominator)
+        {
+            // checks to ensure denominator is not zero
+            // if it is then throws a DivideByZeroException
+            if (denominator == 0)
+                throw new DivideByZeroException("Cannot divide by zero.");
 
+            bool result = false;
+
+            // checks if division results in no remainder
+            if (numerator % denominator == 0)
+                result = true;
+
+            return result;
+        }
+    }
 }
