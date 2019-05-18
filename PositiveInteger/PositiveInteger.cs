@@ -69,19 +69,27 @@ namespace JJH
             return ret;
         }
 
+        // The CheckPositiveInteger method attempts to convert a string
+        // into an integer and handles the exception thrown if it does not
+        // convert. The method also checks to see if the integer is positive
         public static int CheckPositiveInteger(string input)
         {
             int result = 0;
 
+            // the try-catch block handles any FormatExceptions that occur
             try
             {
+                // tries to convert string to int
                 result = Int32.Parse(input);
 
+                // throws exception if not positive integer
                 if (result < 0)
                     throw new FormatException();
             }
             catch (FormatException e)
             {
+                // displays error message when an exception is caught
+                // message is different for each subtype of FormatException
                 Console.WriteLine("\nEXCEPTION CAUGHT!");
                 Console.WriteLine(e.Message);
                 Console.WriteLine();
