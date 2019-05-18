@@ -17,6 +17,9 @@ namespace JJH
         {
             bool opt;
 
+            Console.WriteLine("This program asks for a postive integer and then checks " +
+                "that the input is valid and then determines if it is divisible by 3.");
+
             do
             {
                 Utility.Menu();
@@ -32,9 +35,6 @@ namespace JJH
         public static void Menu()
         {
             const int THREE = 3;
-
-            Console.WriteLine("This program asks for a postive integer and then checks " +
-                "that the input is valid and then determines if it is divisible by 3.");
 
             Console.WriteLine();
 
@@ -76,10 +76,15 @@ namespace JJH
             try
             {
                 result = Int32.Parse(input);
-            }
-            catch
-            {
 
+                if (result < 0)
+                    throw new FormatException();
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("\nEXCEPTION CAUGHT!");
+                Console.WriteLine(e.Message);
+                Console.WriteLine();
             }
 
             return result;
@@ -93,7 +98,7 @@ namespace JJH
             // checks to ensure denominator is not zero
             // if it is then throws a DivideByZeroException
             if (denominator == 0)
-                throw new DivideByZeroException("Cannot divide by zero.");
+                throw new DivideByZeroException();
 
             bool result = false;
 
