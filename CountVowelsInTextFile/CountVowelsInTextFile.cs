@@ -76,15 +76,17 @@ namespace JJH
             return ret;
         }
 
-        public static int CountVowelsInFile(string filepath)
+        public static int CountVowelsInFile(string filePath)
         {
+            int ret = 0;
+            
             try
             {
                 using (StreamReader sr = new StreamReader(filePath))
                 {
                     while (!sr.EndOfStream)
                     {
-                        Console.WriteLine(sr.ReadLine());
+                        ret += FindVowelsInString(sr.ReadLine());
                     }
                 }
             }
@@ -95,10 +97,14 @@ namespace JJH
                 Console.WriteLine("\nEXCEPTION CAUGHT!");
                 Console.WriteLine(e.Message);
                 Console.WriteLine();
+
+                ret = -1;
             }
+
+            return ret;
         }
 
-        public static void FindVowelsInString()
+        public static int FindVowelsInString(string input)
         {
 
         }
