@@ -48,24 +48,9 @@ namespace JJH
             Console.WriteLine("Enter path and file name to a text file:");
             string filePath = Console.ReadLine();
 
-            try
-            {
-                using (StreamReader sr = new StreamReader(filePath))
-                {
-                    while (!sr.EndOfStream)
-                    {
-                        Console.WriteLine(sr.ReadLine());
-                    }
-                }
-            }
-            catch (IOException e)
-            {
-                // displays error message when an exception is caught
-                // message is different for each subtype of FormatException
-                Console.WriteLine("\nEXCEPTION CAUGHT!");
-                Console.WriteLine(e.Message);
-                Console.WriteLine();
-            }
+            int numVowels = CountVowelsInFile(filePath);
+
+            Console.WriteLine();
         }
 
         // The RunAgain method asks a user if they want to
@@ -90,9 +75,26 @@ namespace JJH
             return ret;
         }
 
-        public static void CountVowelsInFile()
+        public static int CountVowelsInFile(string filepath)
         {
-
+            try
+            {
+                using (StreamReader sr = new StreamReader(filePath))
+                {
+                    while (!sr.EndOfStream)
+                    {
+                        Console.WriteLine(sr.ReadLine());
+                    }
+                }
+            }
+            catch (IOException e)
+            {
+                // displays error message when an exception is caught
+                // message is different for each subtype of FormatException
+                Console.WriteLine("\nEXCEPTION CAUGHT!");
+                Console.WriteLine(e.Message);
+                Console.WriteLine();
+            }
         }
 
         public static void FindVowelsInString()
