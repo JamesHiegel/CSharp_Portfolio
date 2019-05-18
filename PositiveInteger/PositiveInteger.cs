@@ -3,16 +3,17 @@
 // PURPOSE: Checks if an entered integer is positive and then checks if it is divisble by 3.
 // DATE: 18 May 2019
 
-// This program prompts a user to enter an positive integer and then
-// checks to ensure it is valid. It throws and handles an exception
-// if the input is invalid. Lastly it checks if the integer is 
-// divisible by 3.
 using System;
 
 namespace JJH
 {
+    // This program prompts a user to enter an positive integer and then
+    // checks to ensure it is valid. It throws and handles an exception
+    // if the input is invalid. Lastly it checks if the integer is 
+    // divisible by 3.
     public class PositiveInteger
     {
+        // driver method
         public static void Main(string[] args)
         {
             bool opt;
@@ -20,9 +21,12 @@ namespace JJH
             Console.WriteLine("This program asks for a postive integer and then checks " +
                 "that the input is valid and then determines if it is divisible by 3.");
 
+            // loops until user asks to exit program
             do
             {
+                // displays menu and handles user input
                 Utility.Menu();
+                // asks user if they want to exit
                 opt = Utility.RunAgain();
 
             } while (opt);
