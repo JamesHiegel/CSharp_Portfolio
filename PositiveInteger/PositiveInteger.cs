@@ -33,6 +33,8 @@ namespace JJH
         }
     }
 
+    // The Utility class contains methods that displays a menu, checks user 
+    // input, checks division, and asks a user if they want to quit
     public class Utility
     {
         // The Menu method displays instructions and prompts the user for input
