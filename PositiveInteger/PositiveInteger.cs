@@ -52,17 +52,22 @@ namespace JJH
 
         }
 
+        // The RunAgain method asks a user if they want to
+        // run the program again and returns a bool
         public static bool RunAgain()
         {
             string input;
+            // default is to not run program again
             bool ret = false;
 
+            // loops until user input is valid
             do
             {
                 Console.Write("Run Again? (y/n): ");
                 input = Console.ReadLine();
             } while (!(input == "y" || input == "n"));
 
+            // changes return to true if user says yes
             if (input == "y")
                 ret = true;
 
