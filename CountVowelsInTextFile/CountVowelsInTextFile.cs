@@ -104,9 +104,24 @@ namespace JJH
             return ret;
         }
 
+        // The CountVowels method returns the number of vowels (A, E, I, O, U)
+        // in a provided string using a LINQ query.
         public static int FindVowelsInString(string input)
         {
+            // list of vowels, does NOT include Y
+            char[] VOWELS = { 'a', 'e', 'i', 'o', 'u' };
 
+            // creates a LINQ query
+            // 1) converts string to all lowercase, then iterates over the string
+            // 2) checks if each char is a vowel
+            // 3) selects only the char's that are vowels
+            IEnumerable<char> query = from c in input.ToLower()
+                                      where VOWELS.Contains(c)
+                                      select c;
+
+            // since the query only contains vowels returning the 
+            // count gives the number of vowels in the string
+            return query.Count();
         }
     }
 
