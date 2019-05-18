@@ -64,7 +64,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [PasswordChecker](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PasswordChecker)
 * [CopyPartOfArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CopyPartOfArray)
 * [SingleException](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/SingleException)
-* [MultipleException](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MultipleException)
+* [MultipleExceptions](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MultipleExceptions)
 * [ShuffleArray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ShuffleArray)
 * [OddOrEven](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/OddOrEven)
 * [MatrixAddition](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixAddition)
