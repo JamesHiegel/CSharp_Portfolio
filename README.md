@@ -59,6 +59,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 ### Basics
 
+* [Check if Number is Positive](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PositiveInteger) 
 * [StringBuilder Demo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringBuilderDemo) 
 * [Rotate Array](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/RotateArray)
 * [Electricity Bill](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ElectricityBill)
