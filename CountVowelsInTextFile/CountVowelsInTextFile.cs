@@ -48,10 +48,13 @@ namespace JJH
 
             Console.WriteLine();
 
+            // calls the CountVowelsInFile to obtain the number of
+            // vowels in the provided file
             int numVowels = CountVowelsInFile(filePath);
 
-            if (numVowels > 0)
-                Console.WriteLine("The text file contains {0} vowels.\n");
+            // only displays if count is non-negative
+            if (numVowels >= 0)
+                Console.WriteLine("The text file contains {0} vowels.\n", numVowels);
         }
 
         // The RunAgain method asks a user if they want to
@@ -72,35 +75,58 @@ namespace JJH
             // changes return to true if user says yes
             if (input == "y")
                 ret = true;
-
+            
+            // returns a bool indicating option selected
             return ret;
         }
 
+        // The CountVowelsInFile method reads each line of text from a
+        // specified file. The lines are passed to the FindVowelsInString
+        // method which returns the count of vowels in the line. Once
+        // the end of file is reached this method returns the number of
+        // vowels in the file.
         public static int CountVowelsInFile(string filePath)
         {
             int ret = 0;
             
+            // the try-catch block handles any specified exceptions
+            // uses a filter in the catch block to specify which
+            // exceptions are handled
             try
             {
+                // opens a stream for the specified file
+                // the using statement ensures IDisposable objects are closed,
+                // otherwise you have to the finally block
                 using (StreamReader sr = new StreamReader(filePath))
                 {
+                    // loops until the end of file is reached
                     while (!sr.EndOfStream)
                     {
+                        // sums the number of vowels in the file
                         ret += FindVowelsInString(sr.ReadLine());
                     }
                 }
             }
-            catch (IOException e)
+            // catches all exceptions but only handles them if they meet a specified filter
+            // source: https://blog.pieeatingninjas.be/2016/09/26/how-to-catch-multiple-types-of-exceptions-in-one-catch-block/
+            catch (Exception ex)
             {
-                // displays error message when an exception is caught
-                // message is different for each subtype of FormatException
-                Console.WriteLine("\nEXCEPTION CAUGHT!");
-                Console.WriteLine(e.Message);
-                Console.WriteLine();
-
-                ret = -1;
+                // filters exceptions to handle
+                if (ex is IOException || ex is UnauthorizedAccessException || ex is ArgumentException)
+                {
+                    // displays error message when an exception is caught
+                    Console.WriteLine("\nEXCEPTION CAUGHT!");
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine();
+                    
+                    ret = -1;
+                }
+                // rethrows exceptions that are in the filter
+                else
+                    throw;
             }
-
+            // returns number of vowels in file,
+            // or -1 to indicate a problem occured
             return ret;
         }
 
