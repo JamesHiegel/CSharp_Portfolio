@@ -51,13 +51,17 @@ namespace JJH
             // the user input
             int number = CheckPositiveInteger(input);
 
-            Console.Write("The number {0} is ", input);
+            // only runs if user input was valid
+            if (number > 0)
+            {
+                Console.Write("The number {0} is ", input);
 
-            // uses the CheckDivisionNoRemainder to customize the displayed message
-            if (!CheckDivisionNoRemainder(number, THREE))
-                Console.Write("NOT ");
+                // uses the CheckDivisionNoRemainder to customize the displayed message
+                if (!CheckDivisionNoRemainder(number, THREE))
+                    Console.Write("NOT ");
 
-            Console.WriteLine("divible by {0} with no remainder.", THREE);
+                Console.WriteLine("divible by {0} with no remainder.", THREE);
+            }
         }
 
         // The RunAgain method asks a user if they want to
@@ -87,7 +91,8 @@ namespace JJH
         // convert. The method also checks to see if the integer is positive
         public static int CheckPositiveInteger(string input)
         {
-            int result = 0;
+            // default is -1 to indicate input was invalid
+            int result = -1;
 
             // the try-catch block handles any FormatExceptions that occur
             try
