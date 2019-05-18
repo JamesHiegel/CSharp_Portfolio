@@ -43,14 +43,15 @@ namespace JJH
         // and captures the user's input, then calls other methods
         public static void DisplayMenu()
         {
-            Console.WriteLine();
-
-            Console.WriteLine("Enter path and file name to a text file:");
+            Console.WriteLine("\nEnter path and file name to a text file:");
             string filePath = Console.ReadLine();
+
+            Console.WriteLine();
 
             int numVowels = CountVowelsInFile(filePath);
 
-            Console.WriteLine();
+            if (numVowels > 0)
+                Console.WriteLine("The text file contains {0} vowels.\n");
         }
 
         // The RunAgain method asks a user if they want to
