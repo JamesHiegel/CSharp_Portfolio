@@ -24,7 +24,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 * [Linked Lists Integer](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) 
 * [Singly Linked List String](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedList_strings) 
-* [Doubly Linked List String](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DoubleLinkedListStrings) 
+* [Doubly Linked List String](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DoubleLinkedListString) 
 * [Queue As Linked List](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/QueueAsLinkedList)
 * [Stack As Array](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StackAsArray) 
 * [Binary Search Tree](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/BinarySearchTree) 
