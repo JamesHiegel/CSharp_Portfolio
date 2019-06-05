@@ -7,7 +7,7 @@ Program that implements a singly linked list that handles strings.
 Download, and then compile and run in your favorite editor.
 
 ## Running tests
-![All tests pass](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedListStrings/img/Capture.PNG)
+![All tests pass](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedList_strings/img/Capture.PNG)
 
 ## Authors
 
