@@ -1,6 +1,6 @@
 ﻿// AUTHOR: James Hiegel
-// FILENAME: LinkedListStrings.cs
-// PURPOSE: Implement a singly linked list that handles strings.
+// FILENAME: DoubleLinkedListStrings.cs
+// PURPOSE: Implement a doubly linked list that handles strings.
 // DATE: 03 June 2019
 
 using System;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace JJH
 {
-    class LinkedListStrings
+    class DoubleLinkedListStrings
     {
         // driver method
         static void Main(string[] args)
@@ -68,38 +68,42 @@ namespace JJH
         }
 
         // Each Node of a linked list contains data and
-        // reference to the next node
+        // reference to the next and previous node
         // Creating a Node takes O(1) time
         public class Node
         {
             public string data;
             public Node next;
+            public Node prev;
 
             // constructor
             public Node(string value)
             {
                 data = value;
                 next = null;
+                prev = null;
             }
         }
 
-        // The LinkedList class only holds a reference
-        // to the first Node in the list
+        // The LinkedList class holds a reference
+        // to the first and last Node in the list
         // Creating a LinkedList takes O(1) time
         public class LinkedList
         {
             private Node first;
+            private Node last;
 
             // constructor
             public LinkedList()
             {
                 first = null;
+                last = null;
                 //Console.WriteLine("List created!");
             }
 
             // The AppendNode method adds a new Node to the end of the
             // list and updates the previous node's next reference
-            // Appending a Node takes O(1) time best case, and O(n) time worst case
+            // Appending a Node takes O(1) time
             public void AppendNode(string value)
             {
                 // create the new node
@@ -107,21 +111,16 @@ namespace JJH
 
                 // if the list is empty the new node becomes the first node
                 if (IsEmpty())
+                {
                     first = newNode;
-                // otherwise iterate over the list until the end
-                // then add the new node to the end of the list
+                    last = newNode;
+                }
+                // otherwise add the new node to the end of the list
                 else
                 {
-                    // sets current node to first
-                    Node current = first;
-
-                    // iterates over the list until the last node
-                    while (current.next != null)
-                    {
-                        current = current.next;
-                    }
-                    // links the last node to the new node, there by extending the list
-                    current.next = newNode;
+                    last.next = newNode;
+                    newNode.prev = last;
+                    last = newNode;
                 }
                 //Console.WriteLine("Success: Node added!");
             }
@@ -247,7 +246,7 @@ namespace JJH
 
             // The AddBack method adds a Node to the end of a list
             // It calls the AppendNode method as it is the same operation
-            // Appending a Node takes O(1) time best case, and O(n) time worst case
+            // Appending a Node takes O(1) time
             public void AddBack(string value)
             {
                 AppendNode(value);
@@ -284,29 +283,25 @@ namespace JJH
                     Console.WriteLine("Error: Can't reverse empty list!");
                 // checks if list only has one node
                 else if (first.next == null)
-                    ;
-                //Console.WriteLine("Success: List is reversed!");
+                    ;//Console.WriteLine("Success: List is reversed!");
                 else
                 {
                     // create pointers
-                    Node prev = null;
                     Node current = first;
-                    Node next = current.next;
+                    Node temp = null;
 
                     // iterates over list until the end
-                    while (current.next != null)
+                    while (current != null)
                     {
-                        // points reference to previous node
-                        current.next = prev;
-                        // advances pointers to next nodes in the window
-                        prev = current;
-                        current = next;
-                        next = current.next;
+                        // swaps prev and next pointers
+                        current.next = temp;
+                        current.next = current.prev;
+                        current.prev = temp;
                     }
-                    // links last node to prev
-                    current.next = prev;
-                    // points first and the new front of the list
-                    first = current;
+                    // swaps first and last pointers
+                    first = temp;
+                    first = last;
+                    last = temp;
                     //Console.WriteLine("Success: List is reversed!");
                 }
             }
@@ -316,6 +311,7 @@ namespace JJH
             public void DeleteList()
             {
                 first = null;
+                last = null;
             }
 
             // The Sort method sorts the list using String.CompareTo
@@ -407,15 +403,14 @@ namespace JJH
                             if (index.data.CompareTo(current.data) == 0)
                                 DeleteNode(current.data);
                         }
-
                         index = index.next;
                     }
                 }
             }
 
-            // The IsPalindrome method utilizes a stack to check if the list
-            // is a palindrome and returns true if it is, false if it is not
-            // The method takes O(n) time
+            // The IsPalindrome method iterates from the front and back of
+            // the list as the same time checking for no-duplicates
+            // The method takes O(n/2) time
             public bool IsPalindrome()
             {
                 // empty lists are not palindromes
@@ -423,31 +418,21 @@ namespace JJH
                     return false;
                 else
                 {
-                    // creates a stack to store list in reverse order
-                    Stack<string> st = new Stack<string>();
+                    // created pointers
+                    Node front = first;
+                    Node back = last;
 
-                    Node current = first;
-                    // iterates over list
-                    while (current.next != null)
+                    // iterates over list comparing front and back values
+                    // stops checking if values dont match or they are pointing to the same object
+                    while (front.data == back.data && !object.ReferenceEquals(front, back))
                     {
-                        // adds value of each node to the stack
-                        st.Push(current.data);
-                        current = current.next;
-                    }
-                    // adds value of last node
-                    st.Push(current.data);
-
-                    // resets pointer
-                    current = first;
-                    // iterates over list as long as the values match and the list is not empty
-                    while (current.data == st.Pop() && current.next != null)
-                    {
-                        current = current.next;
+                        front = front.next;
+                        back = back.prev;
                     }
 
                     // returns false if list is not empty
                     // i.e. above loop stopped because the two values did not match
-                    if (current.next != null)
+                    if (front.data != back.data)
                         return false;
                     // returns true if everything worked out
                     else
