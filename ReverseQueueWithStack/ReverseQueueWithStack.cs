@@ -3,8 +3,10 @@ using System.Collections.Generic;
 
 namespace JJH
 {
+    // This program reverses a Queue with a Stack
     class ReverseQueueWithStack
     {
+        // driver method
         static void Main(string[] args)
         {
             Console.WriteLine("This program utilizes a Stack to reverse a Queue.");
@@ -36,6 +38,7 @@ namespace JJH
         }
     }
 
+    // The Utility class contains helper methods
     public static class Utility
     {
         public static void ReverseQueue(Queue<int> q)

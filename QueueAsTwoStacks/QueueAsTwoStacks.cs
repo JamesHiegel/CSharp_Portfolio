@@ -3,8 +3,10 @@ using System.Collections.Generic;
 
 namespace JJH
 {
+    // This program demonstrates how to implement a Queue with two Stacks
     class QueueAsTwoStacks
     {
+        // driver method
         static void Main(string[] args)
         {
             Console.WriteLine("This program implements a Queue using two Stacks.");
@@ -29,6 +31,8 @@ namespace JJH
         }
     }
 
+    // The QueueV2 class implements a queue data structure
+    // using two stacks
     public class QueueV2
     {
         // two stacks used to implement queue
