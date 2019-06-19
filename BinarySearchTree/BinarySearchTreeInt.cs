@@ -25,7 +25,7 @@ using System.Collections.Generic;
 
 namespace JJH
 {
-    public class BinarySearchTree
+    public class BinarySearchTreeInt
     {
         // The Main method creates a binary search tree and then displays the output via three different traversal techniques
         public static void Main(string[] args)

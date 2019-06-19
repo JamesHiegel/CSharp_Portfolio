@@ -28,7 +28,7 @@ If you are using Visual Studio each program folder is saved as a separate projec
 * [Doubly Linked List String](/DoubleLinkedListStrings) 
 * [Queue As Linked List](/QueueAsLinkedList)
 * [Stack As Array](/StackAsArray) 
-* [Binary Search Tree](/BinarySearchTree) 
+* [Binary Search Tree (integers)](/BinarySearchTreeInt) 
 * [Dictionary Demo](/DictionaryDemo) 
 
 ### Design Pattern

@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueAsLinkedList", "QueueA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackAsArray", "StackAsArray\StackAsArray.csproj", "{1D31B783-6E0E-450A-98B3-CCD369F28CF7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{87CA538B-ED6F-4AA2-A557-AACC8F3CB9EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTreeInt", "BinarySearchTree\BinarySearchTreeInt.csproj", "{87CA538B-ED6F-4AA2-A557-AACC8F3CB9EA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryDemo", "DictionaryDemo\DictionaryDemo.csproj", "{EFD4B21E-2CD5-45BD-9B70-35D8E7D3A011}"
 EndProject
@@ -113,11 +113,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList_strings", "Linke
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleLinkedListString", "DoubleLinkedListString\DoubleLinkedListString.csproj", "{EF4A104E-F7C3-46D8-A05A-617D43D9C30C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseQueueWithStack", "ReverseQueueWithStack\ReverseQueueWithStack.csproj", "{C3034728-E7D7-47E4-B59D-B5CFC697A1DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseQueueWithStack", "ReverseQueueWithStack\ReverseQueueWithStack.csproj", "{C3034728-E7D7-47E4-B59D-B5CFC697A1DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueAsTwoStacks", "QueueAsTwoStacks\QueueAsTwoStacks.csproj", "{19913CBD-8107-4CD6-A622-E5871C4301BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueAsTwoStacks", "QueueAsTwoStacks\QueueAsTwoStacks.csproj", "{19913CBD-8107-4CD6-A622-E5871C4301BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseTextLinesInAFile", "ReverseTextLinesInAFile\ReverseTextLinesInAFile.csproj", "{4CD6816C-0DB1-42CD-8347-A546F91E8C8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseTextLinesInAFile", "ReverseTextLinesInAFile\ReverseTextLinesInAFile.csproj", "{4CD6816C-0DB1-42CD-8347-A546F91E8C8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
