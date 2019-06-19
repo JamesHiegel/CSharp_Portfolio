@@ -12,78 +12,80 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 ### Algorithms
 
-* [Merge Sort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/MergeSort) 
-* [Quick Sort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/QuickSort) 
-* [Heap Sort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/HeapSort) 
-* [Bucket Sort](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BucketSort) 
-* [Binary Search (Recursive)](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BinarySearchRecursive) 
-* [Search Sorted and Rotated Array](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/SearchSortedRotatedArray) 
-* [Phonebook using Hashtable](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/HashtablePhonebook)
+* [Merge Sort](/tree/master/MergeSort) 
+* [Quick Sort](/tree/master/QuickSort) 
+* [Heap Sort](/tree/master/HeapSort) 
+* [Bucket Sort](/tree/master/BucketSort) 
+* [Binary Search (Recursive)](/tree/master/BinarySearchRecursive) 
+* [Search Sorted and Rotated Array](/tree/master/SearchSortedRotatedArray) 
+* [Phonebook using Hashtable](/tree/master/HashtablePhonebook)
 
 ### Data Structures
 
-* [Linked Lists Integer](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedLists) 
-* [Singly Linked List String](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LinkedList_strings) 
-* [Doubly Linked List String](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DoubleLinkedListString) 
-* [Queue As Linked List](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/QueueAsLinkedList)
-* [Stack As Array](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StackAsArray) 
-* [Binary Search Tree](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/BinarySearchTree) 
-* [Dictionary Demo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DictionaryDemo) 
+* [Queue using two Stacks](/tree/master/QueueAsTwoStacks)
+* [Linked Lists Integer](/tree/master/LinkedLists) 
+* [Singly Linked List String](/tree/master/LinkedList_strings) 
+* [Doubly Linked List String](/tree/master/DoubleLinkedListStrings) 
+* [Queue As Linked List](/tree/master/QueueAsLinkedList)
+* [Stack As Array](/tree/master/StackAsArray) 
+* [Binary Search Tree](/tree/master/BinarySearchTree) 
+* [Dictionary Demo](/tree/master/DictionaryDemo) 
 
 ### Design Pattern
 
-* [Decorator](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/Decorator)
+* [Decorator](/tree/master/Decorator)
 
 ### Challenges
 
-* [Count Vowels in a Textfile using LINQ](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CountVowelsInTextFile) 
-* [Count Vowels in a String using LINQ](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CountVowelsInStringLINQ) 
-* [Find Most Frequent Element in an Array](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MostFrequentElementInArray) 
-* [Reverse an rray](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseArray) 
-* [Is Number a Power Of Two?](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PowerOfTwo) 
-* [Sum Of Integers](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/SumOfIntegers)
-* [Prime Number](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PrimeNumber)
-* [Sum Of Digits](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReplaceMethod) 
-* [Largest Contiguous Sum](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/LargestContiguousSum)
-* [Reverse Words in String](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ReverseWords)
-* [Count Letters, Digits and Special characters](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CountLettersDigitsSpecial)
+* [Reverse text lines in a file](/tree/master/ReverseTextLinesInAFile)
+* [Count Vowels in a Textfile using LINQ](/tree/master/CountVowelsInTextFile) 
+* [Count Vowels in a String using LINQ](/tree/master/CountVowelsInStringLINQ) 
+* [Find Most Frequent Element in an Array](/tree/master/MostFrequentElementInArray) 
+* [Reverse an rray](/tree/master/ReverseArray) 
+* [Is Number a Power Of Two?](/tree/master/PowerOfTwo) 
+* [Sum Of Integers](/tree/master/SumOfIntegers)
+* [Prime Number](/tree/master/PrimeNumber)
+* [Sum Of Digits](/tree/master/StringReplaceMethod) 
+* [Largest Contiguous Sum](/tree/master/LargestContiguousSum)
+* [Reverse Words in String](/tree/master/ReverseWords)
+* [Count Letters, Digits and Special characters](/tree/master/CountLettersDigitsSpecial)
 
 ### Interesting
 
-* [Encrypt String using Ceasar Cipher](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CeasarCipher) 
-* [String Similarity](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringSimilarity) 
-* [Eight Queens Problem](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/EightQueensProblem)
+* [Encrypt String using Ceasar Cipher](/tree/master/CeasarCipher) 
+* [String Similarity](/tree/master/StringSimilarity) 
+* [Eight Queens Problem](/tree/master/EightQueensProblem)
 
 ### Games
 
-* [Number Guessing Game](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/NumberGuessingGame) 
-* [Hangman](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/Hangman) 
-* [Magic Eight Ball](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MagicEightBall) 
+* [Number Guessing Game](/tree/master/NumberGuessingGame) 
+* [Hangman](/tree/master/Hangman) 
+* [Magic Eight Ball](/tree/master/MagicEightBall) 
 
 ### Basics
 
-* [Check if Number is Positive](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PositiveInteger) 
-* [StringBuilder Demo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringBuilderDemo) 
-* [Rotate Array](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/RotateArray)
-* [Electricity Bill](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ElectricityBill)
-* [Password Checker](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/PasswordChecker)
-* [Copy Part Of Array](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CopyPartOfArray)
-* [Single Exception](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/SingleException)
-* [Multiple Exceptions](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MultipleExceptions)
-* [Shuffle Array](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/ShuffleArray)
-* [Odd Or Even](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/OddOrEven)
-* [Matrix Addition](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixAddition)
-* [Matrix Multiplication](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/MatrixMultiplication)
-* [StringReader Demo](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/StringReaderDemo)
-* [Get File List](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/GetFileList)
-* [Get File Time](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/GetFileTime)
-* [Calculate Acceleration](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CalculateAcceleration)
-* [Fahrenheit To Celsius](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/FahrenheitToCelsius)
-* [Days To Weeks](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DaysToWeeks)
-* [Decimal To Binary](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DecimalToBinary)
-* [Calculate Area Of Circle](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/CalculateAreaOfCircle)
-* [Write Array To File](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/WriteArrayToFile)
-* [Using Params](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/Params)
+* [Check if Number is Positive](/tree/master/PositiveInteger) 
+* [StringBuilder Demo](/tree/master/StringBuilderDemo) 
+* [Rotate Array](/tree/master/RotateArray)
+* [Electricity Bill](/tree/master/ElectricityBill)
+* [Password Checker](/tree/master/PasswordChecker)
+* [Copy Part Of Array](/tree/master/CopyPartOfArray)
+* [Single Exception](/tree/master/SingleException)
+* [Multiple Exceptions](/tree/master/MultipleExceptions)
+* [Shuffle Array](/tree/master/ShuffleArray)
+* [Odd Or Even](/tree/master/OddOrEven)
+* [Matrix Addition](/tree/master/MatrixAddition)
+* [Matrix Multiplication](/tree/master/MatrixMultiplication)
+* [StringReader Demo](/tree/master/StringReaderDemo)
+* [Get File List](/tree/master/GetFileList)
+* [Get File Time](/tree/master/GetFileTime)
+* [Calculate Acceleration](/tree/master/CalculateAcceleration)
+* [Fahrenheit To Celsius](/tree/master/FahrenheitToCelsius)
+* [Days To Weeks](/tree/master/DaysToWeeks)
+* [Decimal To Binary](/tree/master/DecimalToBinary)
+* [Calculate Area Of Circle](/tree/master/CalculateAreaOfCircle)
+* [Write Array To File](/tree/master/WriteArrayToFile)
+* [Using Params](/tree/master/Params)
 
 ## Built With
 
@@ -107,4 +109,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [W3Resource](https://www.w3resource.com/csharp-exercises/)
 
 ### Bill Of Accomplishment
-* [Link](https://github.com/JamesHiegel/CSharp_Portfolio/tree/master/BillOfAccomplishment)
+* [Link](/tree/master/BillOfAccomplishment)
