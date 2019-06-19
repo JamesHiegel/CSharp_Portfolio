@@ -12,80 +12,80 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 ### Algorithms
 
-* [Merge Sort](/tree/master/MergeSort) 
-* [Quick Sort](/tree/master/QuickSort) 
-* [Heap Sort](/tree/master/HeapSort) 
-* [Bucket Sort](/tree/master/BucketSort) 
-* [Binary Search (Recursive)](/tree/master/BinarySearchRecursive) 
-* [Search Sorted and Rotated Array](/tree/master/SearchSortedRotatedArray) 
-* [Phonebook using Hashtable](/tree/master/HashtablePhonebook)
+* [Merge Sort](/MergeSort) 
+* [Quick Sort](/QuickSort) 
+* [Heap Sort](/HeapSort) 
+* [Bucket Sort](/BucketSort) 
+* [Binary Search (Recursive)](/BinarySearchRecursive) 
+* [Search Sorted and Rotated Array](/SearchSortedRotatedArray) 
+* [Phonebook using Hashtable](/HashtablePhonebook)
 
 ### Data Structures
 
-* [Queue using two Stacks](/tree/master/QueueAsTwoStacks)
-* [Linked Lists Integer](/tree/master/LinkedLists) 
-* [Singly Linked List String](/tree/master/LinkedList_strings) 
-* [Doubly Linked List String](/tree/master/DoubleLinkedListStrings) 
-* [Queue As Linked List](/tree/master/QueueAsLinkedList)
-* [Stack As Array](/tree/master/StackAsArray) 
-* [Binary Search Tree](/tree/master/BinarySearchTree) 
-* [Dictionary Demo](/tree/master/DictionaryDemo) 
+* [Queue using two Stacks](/QueueAsTwoStacks)
+* [Linked Lists Integer](/LinkedLists) 
+* [Singly Linked List String](/LinkedList_strings) 
+* [Doubly Linked List String](/DoubleLinkedListStrings) 
+* [Queue As Linked List](/QueueAsLinkedList)
+* [Stack As Array](/StackAsArray) 
+* [Binary Search Tree](/BinarySearchTree) 
+* [Dictionary Demo](/DictionaryDemo) 
 
 ### Design Pattern
 
-* [Decorator](/tree/master/Decorator)
+* [Decorator](/Decorator)
 
 ### Challenges
 
-* [Reverse text lines in a file](/tree/master/ReverseTextLinesInAFile)
-* [Count Vowels in a Textfile using LINQ](/tree/master/CountVowelsInTextFile) 
-* [Count Vowels in a String using LINQ](/tree/master/CountVowelsInStringLINQ) 
-* [Find Most Frequent Element in an Array](/tree/master/MostFrequentElementInArray) 
-* [Reverse an rray](/tree/master/ReverseArray) 
-* [Is Number a Power Of Two?](/tree/master/PowerOfTwo) 
-* [Sum Of Integers](/tree/master/SumOfIntegers)
-* [Prime Number](/tree/master/PrimeNumber)
-* [Sum Of Digits](/tree/master/StringReplaceMethod) 
-* [Largest Contiguous Sum](/tree/master/LargestContiguousSum)
-* [Reverse Words in String](/tree/master/ReverseWords)
-* [Count Letters, Digits and Special characters](/tree/master/CountLettersDigitsSpecial)
+* [Reverse text lines in a file](/ReverseTextLinesInAFile)
+* [Count Vowels in a Textfile using LINQ](/CountVowelsInTextFile) 
+* [Count Vowels in a String using LINQ](/CountVowelsInStringLINQ) 
+* [Find Most Frequent Element in an Array](/MostFrequentElementInArray) 
+* [Reverse an rray](/ReverseArray) 
+* [Is Number a Power Of Two?](/PowerOfTwo) 
+* [Sum Of Integers](/SumOfIntegers)
+* [Prime Number](/PrimeNumber)
+* [Sum Of Digits](/StringReplaceMethod) 
+* [Largest Contiguous Sum](/LargestContiguousSum)
+* [Reverse Words in String](/ReverseWords)
+* [Count Letters, Digits and Special characters](/CountLettersDigitsSpecial)
 
 ### Interesting
 
-* [Encrypt String using Ceasar Cipher](/tree/master/CeasarCipher) 
-* [String Similarity](/tree/master/StringSimilarity) 
-* [Eight Queens Problem](/tree/master/EightQueensProblem)
+* [Encrypt String using Ceasar Cipher](/CeasarCipher) 
+* [String Similarity](/StringSimilarity) 
+* [Eight Queens Problem](/EightQueensProblem)
 
 ### Games
 
-* [Number Guessing Game](/tree/master/NumberGuessingGame) 
-* [Hangman](/tree/master/Hangman) 
-* [Magic Eight Ball](/tree/master/MagicEightBall) 
+* [Number Guessing Game](/NumberGuessingGame) 
+* [Hangman](/Hangman) 
+* [Magic Eight Ball](/MagicEightBall) 
 
 ### Basics
 
-* [Check if Number is Positive](/tree/master/PositiveInteger) 
-* [StringBuilder Demo](/tree/master/StringBuilderDemo) 
-* [Rotate Array](/tree/master/RotateArray)
-* [Electricity Bill](/tree/master/ElectricityBill)
-* [Password Checker](/tree/master/PasswordChecker)
-* [Copy Part Of Array](/tree/master/CopyPartOfArray)
-* [Single Exception](/tree/master/SingleException)
-* [Multiple Exceptions](/tree/master/MultipleExceptions)
-* [Shuffle Array](/tree/master/ShuffleArray)
-* [Odd Or Even](/tree/master/OddOrEven)
-* [Matrix Addition](/tree/master/MatrixAddition)
-* [Matrix Multiplication](/tree/master/MatrixMultiplication)
-* [StringReader Demo](/tree/master/StringReaderDemo)
-* [Get File List](/tree/master/GetFileList)
-* [Get File Time](/tree/master/GetFileTime)
-* [Calculate Acceleration](/tree/master/CalculateAcceleration)
-* [Fahrenheit To Celsius](/tree/master/FahrenheitToCelsius)
-* [Days To Weeks](/tree/master/DaysToWeeks)
-* [Decimal To Binary](/tree/master/DecimalToBinary)
-* [Calculate Area Of Circle](/tree/master/CalculateAreaOfCircle)
-* [Write Array To File](/tree/master/WriteArrayToFile)
-* [Using Params](/tree/master/Params)
+* [Check if Number is Positive](/PositiveInteger) 
+* [StringBuilder Demo](/StringBuilderDemo) 
+* [Rotate Array](/RotateArray)
+* [Electricity Bill](/ElectricityBill)
+* [Password Checker](/PasswordChecker)
+* [Copy Part Of Array](/CopyPartOfArray)
+* [Single Exception](/SingleException)
+* [Multiple Exceptions](/MultipleExceptions)
+* [Shuffle Array](/ShuffleArray)
+* [Odd Or Even](/OddOrEven)
+* [Matrix Addition](/MatrixAddition)
+* [Matrix Multiplication](/MatrixMultiplication)
+* [StringReader Demo](/StringReaderDemo)
+* [Get File List](/GetFileList)
+* [Get File Time](/GetFileTime)
+* [Calculate Acceleration](/CalculateAcceleration)
+* [Fahrenheit To Celsius](/FahrenheitToCelsius)
+* [Days To Weeks](/DaysToWeeks)
+* [Decimal To Binary](/DecimalToBinary)
+* [Calculate Area Of Circle](/CalculateAreaOfCircle)
+* [Write Array To File](/WriteArrayToFile)
+* [Using Params](/Params)
 
 ## Built With
 
@@ -109,4 +109,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [W3Resource](https://www.w3resource.com/csharp-exercises/)
 
 ### Bill Of Accomplishment
-* [Link](/tree/master/BillOfAccomplishment)
+* [Link](/BillOfAccomplishment)
