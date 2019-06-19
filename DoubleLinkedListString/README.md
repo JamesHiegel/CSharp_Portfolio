@@ -7,7 +7,7 @@ Program that implements a doubly linked list that handles strings.
 Download, and then compile and run in your favorite editor.
 
 ## Running tests
-![All tests pass](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DoubleLinkedListStrings/img/Capture.PNG)
+![All tests pass](https://github.com/JamesHiegel/CSharp_Portfolio/blob/master/DoubleLinkedListString/img/Capture.PNG)
 
 ## Authors
 
