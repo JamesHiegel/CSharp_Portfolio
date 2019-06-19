@@ -119,6 +119,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueAsTwoStacks", "QueueAs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseTextLinesInAFile", "ReverseTextLinesInAFile\ReverseTextLinesInAFile.csproj", "{4CD6816C-0DB1-42CD-8347-A546F91E8C8C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTree", "..\..\..\Documents\CSC395\BinarySearchTree\BinarySearchTree\BinarySearchTree.csproj", "{56C36CFE-E170-4259-AA69-9AA100A46472}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTreeTests", "..\..\..\Documents\CSC395\BinarySearchTree\BinarySearchTreeTest\BinarySearchTreeTests.csproj", "{71DF12B5-D46D-47B7-A80F-81B3D8690573}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -357,6 +361,14 @@ Global
 		{4CD6816C-0DB1-42CD-8347-A546F91E8C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CD6816C-0DB1-42CD-8347-A546F91E8C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CD6816C-0DB1-42CD-8347-A546F91E8C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C36CFE-E170-4259-AA69-9AA100A46472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C36CFE-E170-4259-AA69-9AA100A46472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C36CFE-E170-4259-AA69-9AA100A46472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C36CFE-E170-4259-AA69-9AA100A46472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71DF12B5-D46D-47B7-A80F-81B3D8690573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DF12B5-D46D-47B7-A80F-81B3D8690573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DF12B5-D46D-47B7-A80F-81B3D8690573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DF12B5-D46D-47B7-A80F-81B3D8690573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
