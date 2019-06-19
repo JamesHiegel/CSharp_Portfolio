@@ -7,7 +7,7 @@ This program contains test for the [binary search tree class](/BinarySearchTree)
 Download, and then compile and run in your favorite editor.
 
 ## Successful Tests
-![All green!](/img/tests.PNG)
+![All green!](/BinarySearchTreeTest/img/tests.PNG)
 
 ## Authors
 
