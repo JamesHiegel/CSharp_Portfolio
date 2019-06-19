@@ -22,6 +22,8 @@ If you are using Visual Studio each program folder is saved as a separate projec
 
 ### Data Structures
 
+* [Binary Search Tree](/BinarySearchTree)
+* [Binary Search Tree Tests](/BinarySearchTreeTest)
 * [Queue using two Stacks](/QueueAsTwoStacks)
 * [Linked Lists Integer](/LinkedLists) 
 * [Singly Linked List String](/LinkedList_strings) 
