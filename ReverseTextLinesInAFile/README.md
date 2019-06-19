@@ -1,4 +1,4 @@
-# Queue implemented with two Stacks
+# Reverse the lines of text in a file
 
 This program reverses the lines of text in a file.
 
